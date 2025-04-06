@@ -1,0 +1,143 @@
+{
+    "publisherVendorsVersion": 1,
+    "globalVendorListVersion": 1,
+    "updatedAt": "2025-03-24T010:30:00.000Z",
+    "vendors": [
+        {
+            "id": 1,
+            "Name": "GitHub",
+            "Resources": [
+                "https://pages.github.com",
+                "https://github.com/shellsharks"
+            ],
+            "Purposes": [
+                "Site hosting",
+                "Site asset storage",
+                "GitHub Actions site generation automation"
+            ]
+        },
+        {
+            "id": 2,
+            "Name": "Google",
+            "Resources": [
+                "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            ],
+            "Purposes": [
+                "JQuery used on Statboard for dynamically pulling content from other pages within the site"
+            ]
+        },
+        {
+            "id": 3,
+            "Name": "IndieAuth",
+            "Resources": [
+                "https://indieauth.com/auth",
+                "https://tokens.indieauth.com/token"
+            ],
+            "Purposes": [
+                "Identity and authorization"
+            ]
+        },
+        {
+            "id": 4,
+            "Name": "AWS",
+            "Resources": [
+                "https://shellsharks-images.s3.amazonaws.com/"
+            ],
+            "Purposes": [
+                "Image hosting - used throughout the site"
+            ]
+        },
+        {
+            "id": 5,
+            "Name": "Jekyll",
+            "Resources": [
+                "jekyll-paginate-v2",
+                "jekyll-gist plugin",
+                "jekyll-redirect-from plugin"
+            ],
+            "Purposes": [
+                "Pagination, gists, redirects - throughout the site"
+            ]
+        },
+        {
+            "id": 6,
+            "Name": "Super Search",
+            "Resources": [
+                "https://github.com/chinchang/super-search/",
+                "/assets/css/super-search.css"
+            ],
+            "Purposes": [
+                "Search functionality on search page"
+            ]
+        },
+        {
+            "id": 7,
+            "Name": "lunr.js",
+            "Resources": [
+                "https://lunrjs.com",
+                "/assets/js/lunr.js"
+            ],
+            "Purposes": [
+                "Search functionality on search page"
+            ]
+        },
+        {
+            "id": 8,
+            "Name": "particles.js",
+            "Resources": [
+                "https://vincentgarreau.com/particles.js/",
+                "/assets/js/particles*"
+            ],
+            "Purposes": [
+                "/ocean"
+            ]
+        },
+        {
+            "id": 9,
+            "Name": "Phosphor",
+            "Resources": [
+                "https://phosphoricons.com",
+                "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css",
+                "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css",
+                "https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css"
+            ],
+            "Purposes": [
+                "Site-wide iconography"
+            ]
+        }
+        {
+            "id": 10,
+            "Name": "Mastodon Embed",
+            "Resources": [
+                "https://shellsharks.social/embed.js",
+                "https://dmv.community/embed.js",
+                "https://hackers.town/embed.js"
+            ],
+            "Purposes": [
+                "Embedding and displaying Mastodon/Fediverse posts in-line"
+            ]
+        }
+        {
+            "id": 11,
+            "Name": "LottieFiles",
+            "Resources": [
+                "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"
+            ],
+            "Purposes": [
+                "Animated Scrolls logo"
+            ]
+        }
+        {
+            "id": 12,
+            "Name": "allorigins.win",
+            "Resources": [
+                "https://api.allorigins.win/raw?url=",
+                "/assets/js/latestmasto.js"
+            ],
+            "Purposes": [
+                "Ingest and parse shellsharks.social/@shellsharks RSS feed to display latest post on home page"
+            ]
+        }
+    ]
+}
+    

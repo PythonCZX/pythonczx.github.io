@@ -1,0 +1,9 @@
+{
+    "tracking": "N",
+    "same-party": [
+        "shellsharks.com",
+        "shellsharks.github.io",
+        "shellsharks-images.s3.amazonaws.com"
+    ],
+    "policy": "/dnt-policy.txt"
+}

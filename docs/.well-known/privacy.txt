@@ -1,0 +1,3 @@
+Entity: Shellsharks,US
+Privacy-policy: https://shellsharks.com/privacy
+Contact: mailto:mike@shellsharks.com

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/feeds/link-feed.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:shark="https://shellsharks.com">
+  <channel>
+    <title>shellsharks Links</title>
+    <description>Shared links</description>
+    <link>https://shellsharks.com</link>
+    <language>en-us</language>
+    <managingEditor>mike@shellsharks.com (Shellsharks)</managingEditor>
+    <webMaster>mike@shellsharks.com (Shellsharks)</webMaster>
+    <atom:link href="https://shellsharks.com/feeds/link-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 06 Apr 2025 14:03:49 -0400</pubDate>
+    <lastBuildDate>Sun, 06 Apr 2025 14:03:49 -0400</lastBuildDate>
+    <image>
+      <title>shellsharks Links</title>
+      <url>https://shellsharks.com/assets/img/avatar.png</url>
+      <link>https://shellsharks.com</link>
+    </image>
+    <generator>Jekyll v4.4.1</generator>
+    
+    
+      <item>
+        <title>Just write</title>
+        <author>Lars-Christian</author>
+        <description>Don’t over-think it. Just write.
+</description>
+        <pubDate>Thu, 03 Apr 2025 10:10:00 -0400</pubDate>
+        <link>https://lars-christian.com/posts/2025-01-17-just-write/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-04-03-just-write</guid>
+      </item>
+    
+      <item>
+        <title>In praise of creating crap</title>
+        <author>Annie's blog</author>
+        <description>Preach! 🙌. Be creative. Be Human. Become God.
+</description>
+        <pubDate>Thu, 03 Apr 2025 10:01:00 -0400</pubDate>
+        <link>https://anniemueller.com/posts/in-praise-of-creating-crap</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-04-03-in-praise-of-creating-crap</guid>
+      </item>
+    
+      <item>
+        <title>Website reflections</title>
+        <author>James' Coffee Blog</author>
+        <description>Couldn’t say it any better.
+</description>
+        <pubDate>Thu, 13 Mar 2025 23:16:00 -0400</pubDate>
+        <link>https://jamesg.blog/2025/03/13/website-reflections</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-13-website-reflections</guid>
+      </item>
+    
+      <item>
+        <title>In defense of unpolished personal websites</title>
+        <author>Ana Rodrigues</author>
+        <description>A great message. Be yourself—let your imperfections show. Publish your thoughts if you have thoughts to share, even if they’re incomplete. You won’t be alone.
+</description>
+        <pubDate>Thu, 13 Mar 2025 09:05:00 -0400</pubDate>
+        <link>https://ohhelloana.blog/in-defense-of-unpolished-websites/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-13-unpolished-personal-websites</guid>
+      </item>
+    
+      <item>
+        <title>If your content is only on social media, I&apos;m not going to see it</title>
+        <author>Cory Dransfeldt</author>
+        <description>Same same. Just get an RSS feed, and stop relying on the hegemonic platform silos. The social media landscape is as fractured as it’s ever been. If you can simulatneously manage a presence on Twitter, Facebook, Instagram and Bluesky, then you can certainly add an RSS feed and ideally a Fediverse-compatible account too.
+</description>
+        <pubDate>Thu, 06 Mar 2025 21:54:00 -0500</pubDate>
+        <link>https://www.coryd.dev/posts/2025/if-your-content-is-only-on-social-media-im-not-going-to-see-it</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-06-content-only-social-media-not-going-to-see</guid>
+      </item>
+    
+      <item>
+        <title>The philosophy of James’ Coffee Blog</title>
+        <author>James' Coffee Blog</author>
+        <description>I like this, and I’ve seen other “guiding principles“-type posts before and have been meaning to draft one of my own. It’s a nice way to remind ourselves why we do this - why we spend the time to write, maintain and build our li’l homes on the web. Further, it communicates to others what we care about and helps set expectations.
+</description>
+        <pubDate>Thu, 06 Mar 2025 08:17:00 -0500</pubDate>
+        <link>https://jamesg.blog/2025/03/05/philosophy-of-james-coffee-blog</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-06-philosophy-of-james-coffee-blog</guid>
+      </item>
+    
+      <item>
+        <title>The web is yours</title>
+        <author>James' Coffee Blog</author>
+        <description>It’s so true, you can use the fundamental building blocks of the web to build a highly customized space, a home, just for you on the web. Style it as you want, share what you want, hang out there, be yourself. It’s so much fun!
+</description>
+        <pubDate>Thu, 06 Mar 2025 08:13:00 -0500</pubDate>
+        <link>https://jamesg.blog/2024/01/06/the-web-is-yours</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-06-the-web-is-yours</guid>
+      </item>
+    
+      <item>
+        <title>Big Tech Wants You Trapped. The Open Web Sets You Free</title>
+        <author>Joan Westenberg</author>
+        <description>100%. It’s not even hard to get goin’ on the “social web” either. Signing up for Mastodon, Pixelfed, creating a blog - there’s tons of resources for how to do this. So the problem isn’t so much how these days, rather it is explaining to folks why it’s important. Joan is one of the best at getting to the core issue.
+</description>
+        <pubDate>Tue, 04 Mar 2025 09:01:00 -0500</pubDate>
+        <link>https://www.joanwestenberg.com/big-tech-wants-you-trapped-the-open-web-sets-you-free-2/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-04-big-tech-wants-you-trapped</guid>
+      </item>
+    
+      <item>
+        <title>Digital Homeownership</title>
+        <author>Muni Blog</author>
+        <description>One of my favorite pieces on the IndieWeb, where “home ownership” is all too important.
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:29:00 -0500</pubDate>
+        <link>https://blog.muni.town/digital-homeownership/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-digital-homeownership</guid>
+      </item>
+    
+      <item>
+        <title>This page is under construction</title>
+        <author>localghost</author>
+        <description>Yes, please build your own website.
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:25:00 -0500</pubDate>
+        <link>https://localghost.dev/blog/this-page-is-under-construction/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-love-letter-personal-website</guid>
+      </item>
+    
+      <item>
+        <title>Security means securing people where they are</title>
+        <author>ENOSUCHBLOG</author>
+        <description>
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:23:00 -0500</pubDate>
+        <link>https://blog.yossarian.net/2024/11/18/Security-means-securing-people-where-they-are</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-secure-people-where-they-are</guid>
+      </item>
+    
+      <item>
+        <title>Talk about the thing itself</title>
+        <author>Annie Mueller</author>
+        <description>
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:20:00 -0500</pubDate>
+        <link>https://anniemueller.com/posts/talk-about-the-thing-itself</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-talk-about-the-thing-itself</guid>
+      </item>
+    
+      <item>
+        <title>The Indie Web Manifesto</title>
+        <author>uZine</author>
+        <description>
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:17:00 -0500</pubDate>
+        <link>http://www.uzine.net/article63.html</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-the-indie-web-manifesto</guid>
+      </item>
+    
+      <item>
+        <title>Make Your Own Website</title>
+        <author>Pixel Shannon</author>
+        <description>These li’l guides are exactly what we need, to spread the IndieWeb and help people join up right.
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:15:00 -0500</pubDate>
+        <link>https://web.pixelshannon.com/make/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-make-your-own-website</guid>
+      </item>
+    
+      <item>
+        <title>RSS is (not) dead (yet)</title>
+        <author>Audra McNamee</author>
+        <description>Definitely not dead. Go get yourself an RSS reader and subscribe to stuff. Start with my stuff.
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:10:00 -0500</pubDate>
+        <link>https://audmcname.com/comics/rss-is-not-dead-yet/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-rss-is-not-dead-yet</guid>
+      </item>
+    
+      <item>
+        <title>I’m gonna keep making shit and I hope you will too</title>
+        <author>Annie Mueller</author>
+        <description>Hell yeah! “Make things and share them”. Wise words.
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:05:00 -0500</pubDate>
+        <link>https://anniemueller.com/posts/im-gonna-keep-making-shit-and-i-hope-you-will-too</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-03-03-keep-making-stuff</guid>
+      </item>
+    
+      <item>
+        <title>The snob RSS Hall of (constructive!) Shame</title>
+        <author>Stop at Zona-M</author>
+        <description>A shame wall I can get behind. Every website that has a “blog” should have an RSS feed. And if you have an RSS feed, why would you not promote it and have it easily findable? Madness!
+</description>
+        <pubDate>Fri, 21 Feb 2025 08:21:00 -0500</pubDate>
+        <link>https://stop.zona-m.net/2021/02/the-snob-rss-hall-of-constructive-shame/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-02-21-snob-rss-hall-of-shame</guid>
+      </item>
+    
+      <item>
+        <title>Unlike Google</title>
+        <author>Jamie Zawinski</author>
+        <description>Unlike Google… Savage.
+</description>
+        <pubDate>Wed, 19 Feb 2025 00:46:00 -0500</pubDate>
+        <link>https://www.jwz.org/xscreensaver/google.html</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-02-19-unlike-google</guid>
+      </item>
+    
+      <item>
+        <title>The Web is Fantastic</title>
+        <author>Robb Knight</author>
+        <description>No lies detected. Get yourself a site, share links you find on it. This is what makes the web (awesome).
+</description>
+        <pubDate>Sat, 15 Feb 2025 16:33:00 -0500</pubDate>
+        <link>https://rknight.me/blog/the-web-is-fantastic/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-02-15-the-web-is-fantastic</guid>
+      </item>
+    
+      <item>
+        <title>We Need To Rewild The Internet</title>
+        <author>Noema</author>
+        <description>“Restore healthy ecosystems by creating wild, biodiverse spaces”. But for the Internet. A beautiful, thought-provoking, and very spot-on piece.
+</description>
+        <pubDate>Fri, 14 Feb 2025 10:02:00 -0500</pubDate>
+        <link>https://www.noemamag.com/we-need-to-rewild-the-internet/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-02-14-rewild-the-internet</guid>
+      </item>
+    
+      <item>
+        <title>Heat Death of the Internet</title>
+        <author>takahē</author>
+        <description>The all too familiar story of Enshittification.
+</description>
+        <pubDate>Fri, 14 Feb 2025 09:59:00 -0500</pubDate>
+        <link>https://www.takahe.org.nz/heat-death-of-the-internet/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-02-14-heat-death-of-the-internet</guid>
+      </item>
+    
+      <item>
+        <title>Blogs as third places </title>
+        <author>James' Coffee Blog</author>
+        <description>I love this idea, and it’s always been something I aspired to with my site. I’ve long meant for “shellsharks” to be a source of community, and not just a place for me. Over time, it’s morphed more into my own digital identity and place to post all-things-me, but I still think it can be what James has suggested here, a “third place” that is inviting, informal, conversational and fun. A place to gather.
+</description>
+        <pubDate>Fri, 14 Feb 2025 09:58:00 -0500</pubDate>
+        <link>https://jamesg.blog/2025/02/09/blogs-as-third-places</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-02-14-blogs-as-third-places</guid>
+      </item>
+    
+      <item>
+        <title>It Came From The Internet!</title>
+        <author>@von@social.lol</author>
+        <description>Updates from the fediverse and indieweb projects. A great way to see what’s happening, and it even features Scrolls!
+</description>
+        <pubDate>Fri, 14 Feb 2025 09:50:00 -0500</pubDate>
+        <link>https://itcamefromtheinternet.lol</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-02-14-it-came-from-the-internet</guid>
+      </item>
+    
+      <item>
+        <title>good internet</title>
+        <author>xandra@tilde.zone</author>
+        <description>
+</description>
+        <pubDate>Thu, 30 Jan 2025 08:09:00 -0500</pubDate>
+        <link>https://goodinternetmagazine.com/</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-01-30-good-internet</guid>
+      </item>
+    
+      <item>
+        <title>The definitive guide for escaping social media (and joining the indie web.)</title>
+        <author>Unplatform</author>
+        <description>
+</description>
+        <pubDate>Wed, 29 Jan 2025 13:31:00 -0500</pubDate>
+        <link>https://unplatform.fromthesuperhighway.com</link>
+        <guid isPermaLink="true">https://shellsharks.com/links/2025/2025-01-29-definitive-guide-join-indieweb</guid>
+      </item>
+    
+  </channel>
+</rss>

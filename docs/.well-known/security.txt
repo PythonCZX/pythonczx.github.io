@@ -1,0 +1,19 @@
+# Existence of this security.txt file does not imply consent to perform security tests against shellsharks.com
+Policy: Site is hosted on GitHub Pages, all testing must comply with GitHub security policy. If any vulnerabilities are found related to site code or configuration, please contact me.
+
+Contact: https://shellsharks.social/@shellsharks
+Contact: mailto:mike@shellsharks.com
+
+Expires: 2025-03-24T04:00:00.000Z
+
+Encryption: https://shellsharks.com/public.pgp
+
+Preferred-Languages: en
+
+Canonical: https://shellsharks.com/.well-known/security.txt
+
+Acknowledgements: Arslan Kabeer (arslankabeer006)
+
+Last-Updated: 03/24/2024
+
+Signature: https://shellsharks.com/.well-known/security.txt.sig

@@ -1,0 +1,45 @@
+/* humanstxt.org */
+
+/* TEAM */
+  Creator: Michael Sass
+  Site: shellsharks.com
+  Mastodon: @shellsharks@shellsharks.social
+  From: Northern VA, USA
+  Powered By: Sweet tea, beef jerky and candy
+
+/* THANKS */
+  Artist (Surfing Shark): angryrolypoly
+
+  Artist (Shellsharks Pro Logo): Iwona Skiba
+  Portfolio: https://iwonaskibaart.wixsite.com/iwonaskiba
+
+  Inspiration: https://xdavidhu.me, (Site theme)
+  Inspiration: https://cornerpirate.com, (Captains log)
+
+/* SITE */
+  Founded: May, 2019
+  IDE: VS Code
+  Hosting: Github Pages + Jekyll
+  Logo: @shellsharks
+  Icons: Phosphor (https://phosphoricons.com)
+
+/* Approach */
+IndieWeb, no ads, highly linked, whimsical, always a work-in-progress, comprehensive functionality.
+
+
+/*  ,|
+   / ;
+  /  \
+ : ,'(
+|( `.\
+ : \  `\       \.
+  \ `.         | `.
+   \  `-._     ;   \
+    \     ``-.'.. _ `._
+     `. `-.            ```-...__
+      .'`.        --..          ``-..____
+    ,'.-'`,_-._            ((((   <o.   ,'
+         `' `-.)``-._-...__````  ____.-'
+      mts    ,'    _,'.--,---------'
+         _.-' _..-'   ),'
+        ``--''        `                 */

@@ -1,0 +1,16 @@
+/* https://indieweb.org/indieweb.txt */
+
+/* Tools */
+  A list of tools my site leverages to implement IndieWeb functionality.
+  - GoDaddy: https://www.godaddy.com
+  - GitHub Pages: https://pages.github.com
+  - Jekyll: https://jekyllrb.com
+  - lunr.js: https://lunrjs.com
+
+/* Strategies */
+  I am really just beginning the IndieWeb evolution for my site. My only IndieWeb-like strategy up until now has been to maintain a web presence (this site) where I publish my most important content and POSSE that out to various social networks.
+
+/* Why */
+  Some insight into why I've gone down the IndieWeb path can be seen in the opening sections of the following two posts.
+  - https://shellsharks.com/indieweb
+  - https://shellsharks.com/threadiversal-travel

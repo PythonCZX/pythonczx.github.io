@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/feeds/scroll-feed.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:shark="https://shellsharks.com">
+  <channel>
+    <title>shellsharks Scrolls</title>
+    <description>The Scrolls Newsletter</description>
+    <link>https://shellsharks.com</link>
+    <language>en-us</language>
+    <managingEditor>mike@shellsharks.com (Shellsharks)</managingEditor>
+    <webMaster>mike@shellsharks.com (Shellsharks)</webMaster>
+    <atom:link href="https://shellsharks.com/feeds/scroll-feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 06 Apr 2025 14:03:49 -0400</pubDate>
+    <lastBuildDate>Sun, 06 Apr 2025 14:03:49 -0400</lastBuildDate>
+    <image>
+      <title>shellsharks Scrolls</title>
+      <url>https://shellsharks.com/assets/img/avatar.png</url>
+      <link>https://shellsharks.com</link>
+    </image>
+    <generator>Jekyll v4.4.1</generator>
+    
+    
+      <item>
+        <title>Scroll decem</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume ten</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms. This week, we <s>kick</s> write-it <em>old-school</em>, see what’s buzzin’ across the Fediverse, get into some neat cyber-frameworks, and a whole lot more!</p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume ten&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms. This week, we &lt;s&gt;kick&lt;/s&gt; write-it &lt;em&gt;old-school&lt;/em&gt;, see what’s buzzin’ across the Fediverse, get into some neat cyber-frameworks, and a whole lot more!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ten&lt;/strong&gt; issues into this publication, I wanted take a minute to reflect on &lt;strong&gt;how I think this has been goin’&lt;/strong&gt;, what’s “worked”, how &lt;em&gt;I&lt;/em&gt; am using the newsletter and what’s in store for the future of Scrolls. Overall, I’m &lt;em&gt;very&lt;/em&gt; happy with the reception of Scrolls and believe it has been successful in bringing cool stuff that I discover each week to a lot of people who would have not otherwise seen said &lt;em&gt;stuff&lt;/em&gt;. This was always goal number 1. I think chunking each edition into three primary sections (i.e. IndieWeb, Fediverse, Cybersecurity) has &lt;em&gt;mostly&lt;/em&gt; worked, but I’m admittedly having a harder time piecing together a useful “story” when it comes to the cybersecurity section in particular. I plan to keep it around, because the secondary goal of this newsletter is to really be a reference for myself, and I find myself searching through past issues a lot for things I had saved.&lt;/p&gt;
+
+&lt;p&gt;Two things I’ve been doing since the beginning that I’ve really enjoyed are featuring artists and their artwork, and taking the time to credit all the individuals who helped me source content for that week’s edition. The art makes the newsletter more visually interesting, and shouting out folks from across these communities helps with reach, helps boost cool creators and is just a nice community-oriented way to further engage.&lt;/p&gt;
+
+&lt;p&gt;So what about the future of Scrolls? Well, topics are somewhat cyclical, but content seems as evergreen as always, so I don’t really see myself “running out of things to talk about” and/or share. As an idea for the future, it might be cool to further emphasize creators through guest-posts / featurettes. If you’ve got any ideas, or have something you’d like to be featured or linked-to, always feel free to &lt;a href=&quot;mailto:mike@shellsharks.com&quot;&gt;let me know&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Time to pore over this week’s awesome issue!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.art/@shaferbrown/112790521217612194&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/magus-night.png&quot; alt=&quot;Magus Night&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;The &lt;strong&gt;oft-misunderstood beauty of the IndieWeb&lt;/strong&gt;, the “personal” web, is that it is a medium in which, in my opinion, perfectly blends the capacity to socialize at &lt;a href=&quot;https://arnel.bearblog.dev/writing-for-humans/&quot;&gt;human-scale&lt;/a&gt;, with the ability to comfortably, and more meaningfully, &lt;a href=&quot;https://bix.blog/posts/2025-03-25-on-self-expression-my-quarter-century-of-blogging/&quot;&gt;express yourself&lt;/a&gt;. Modern social media is no doubt a technological wonder, but it is also relentless inundation. Humans are social creatures, but not &lt;em&gt;THAT&lt;/em&gt; social. Connecting with 100’s or 1000’s of people—&lt;u&gt;actually connecting&lt;/u&gt; with them, is an exercise an exhausting &lt;a href=&quot;https://www.streamhead.com/why-i-hardly-blog-anymore-2025/&quot;&gt;futility&lt;/a&gt;. Socially, we operate at community-scale and the IndieWeb does a much better job &lt;a href=&quot;https://mastodon.social/@preslavrachev/114239050249401626&quot;&gt;facilitating that&lt;/a&gt;. Here on the IndieWeb, we forgo the judgement of the masses and are free to &lt;a href=&quot;https://lars-christian.com/posts/2025-01-17-just-write/&quot;&gt;just write&lt;/a&gt;, publish our &lt;a href=&quot;https://anniemueller.com/posts/in-praise-of-creating-crap&quot;&gt;crap&lt;/a&gt;, and y’know… just be ourselves—&lt;a href=&quot;https://janerationx.com/posts/in-the-beginning&quot;&gt;as it once was&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;They say, &lt;strong&gt;everything old is new again&lt;/strong&gt;—and this holds true for the web. These web-&lt;a href=&quot;https://flamedfury.com/posts/relics-of-the-web/&quot;&gt;relics&lt;/a&gt; of a &lt;a href=&quot;https://smallweb.thecozy.cat/blog/💙-flashback-friday-3-💙-geocities-angelfire/&quot;&gt;bygone era&lt;/a&gt; are staging a real comeback. We got &lt;a href=&quot;https://smallweb.thecozy.cat/blog/💛-webring-wednesday-3-fediverse-💛/&quot;&gt;webrings&lt;/a&gt; (e.g. &lt;a href=&quot;https://futurehorizondesign.net.au/updates.html#a11y-webring&quot;&gt;a11y-webring.club&lt;/a&gt;), &lt;a href=&quot;https://ultrasciencelabs.com/lab-notes/why-we-are-still-using-88x31-buttons&quot;&gt;buttons&lt;/a&gt; and blogrolls galore! What these bring is that imperfect (human) creativity and &lt;a href=&quot;https://eldritch.cafe/@Soblow/114255824783546459&quot;&gt;community-like socialization&lt;/a&gt; back to the modern, uniform, sterile web.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The web used to be fun&lt;/strong&gt;, and that’s because the web used to be &lt;u&gt;us&lt;/u&gt;. Yeah, it wasn’t what Facebook thought we should be, or Instagram, or Linkedin, or any of these other platforms. This made the web an adventure, a garden of creativity, and a place of wonderment. Ready to plant your seed for a future Internet which embodies these ideals? When people come to your site, what do you want them to see? How do you want them to feel? How do you think it should &lt;em&gt;&lt;a href=&quot;https://blog.avas.space/scent/&quot;&gt;smell&lt;/a&gt;&lt;/em&gt;? Create a space that &lt;a href=&quot;https://smallweb.thecozy.cat/blog/🧡-tuesday-tips-3-🧡/&quot;&gt;expresses who you really are&lt;/a&gt;. (You might want to learn &lt;a href=&quot;https://eev.ee/blog/2020/02/01/old-css-new-css/&quot;&gt;a bit&lt;/a&gt; about &lt;a href=&quot;https://willybrauner.com/journal/a-fluid-css-methodology&quot;&gt;CSS&lt;/a&gt; to make that happen 😄). Make the web fun again, make the web &lt;em&gt;us&lt;/em&gt; again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thinking of where to plant your little Internet seed?&lt;/strong&gt; You could consider &lt;a href=&quot;https://srht.site&quot;&gt;sourcehut&lt;/a&gt;, &lt;a href=&quot;https://taggart-tech.com/migrate-to-codeberg/&quot;&gt;Codeberg&lt;/a&gt; or &lt;a href=&quot;https://www.the-reframe.com/1-year-after-substack/&quot;&gt;Ghost&lt;/a&gt; (&lt;em&gt;among others&lt;/em&gt;)! But be careful out there, &lt;a href=&quot;https://tzovar.as/algorithmic-sabotage-ii/&quot;&gt;those scrapers are relentless&lt;/a&gt;. With any luck, time will bring a mass decentralization, a true re-wilding of the web. If and when that happens, we’ll need to rely on each other once more to fuel &lt;a href=&quot;https://paulstamatiou.com/browse-no-more&quot;&gt;meaningful&lt;/a&gt; and digestible discovery. Tools like &lt;a href=&quot;https://blogflock.com&quot;&gt;BlogFlock&lt;/a&gt; and &lt;a href=&quot;https://flithos.com&quot;&gt;Flithos&lt;/a&gt; could maybe help! I’m already there though, here some &lt;a href=&quot;#check-out-these-cool-sites&quot;&gt;cool sites&lt;/a&gt; you should check out 😎 ⬇️&lt;/p&gt;
+
+&lt;h3 id=&quot;check-out-these-cool-sites&quot;&gt;Check out these cool sites!&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.xkeeper.net&quot;&gt;Xkeeper’s blog&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://blog.xkeeper.net/about/&quot;&gt;Xkeeper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://smallweb.thecozy.cat/about/&quot;&gt;The Cozy Cat’s&lt;/a&gt; weekly &lt;a href=&quot;https://smallweb.thecozy.cat/blog/💜-showcase-saturday-3-ooops-lol-💜/&quot;&gt;Showcase Saturday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://maya.land/who/&quot;&gt;Maya’s&lt;/a&gt; featurette on &lt;a href=&quot;https://maya.land/responses/2025/03/31/people-and-blogs.html&quot;&gt;People &amp;amp; Blogs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://buttondown.com/juhis/archive/003-to-the-galaxies-beyond/&quot;&gt;From Juhis With Love&lt;/a&gt; &lt;em&gt;by&lt;/em&gt; &lt;a href=&quot;https://hamatti.org/about/&quot;&gt;Juhis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jasonsantamaria.com/blog/once-again-from-the-top&quot;&gt;Once Again From the Top&lt;/a&gt; &lt;em&gt;by&lt;/em&gt; &lt;a href=&quot;https://jasonsantamaria.com/#about-me&quot;&gt;Jason Santa Maria&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lazaruscorporation.co.uk/blogs/artists-notebook/posts/personal-websites-from-hastings-st-leonards-uk&quot;&gt;Personal websites from Hastings &amp;amp; St Leonards-on-Sea (UK)&lt;/a&gt; &lt;em&gt;shared by&lt;/em&gt; &lt;a href=&quot;https://www.lazaruscorporation.co.uk/artists/paul-watson&quot;&gt;Paul Watson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;http://floppy.museum&quot;&gt;floppy.museum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Alrightey-then&lt;/em&gt;! What’s &lt;a href=&quot;https://wetdry.world/@chuckya/114260979110654760&quot;&gt;buzzin’&lt;/a&gt; about the Fediverse this week? 🐝&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hachyderm.io/@thisismissem&quot;&gt;Emelia&lt;/a&gt; has some &lt;a href=&quot;https://writings.thisismissem.social/open-source-tools-for-the-future-of-decentralized-moderation/&quot;&gt;thoughts on moderation tooling&lt;/a&gt;, &lt;a href=&quot;https://social.heise.de/@mho&quot;&gt;Martin&lt;/a&gt; is collecting &lt;a href=&quot;https://social.heise.de/@mho/114264470493542902&quot;&gt;verified Fedi accounts&lt;/a&gt;, &lt;a href=&quot;https://www.jadedtwin.com/about-contact&quot;&gt;Emily&lt;/a&gt; wants to see your &lt;a href=&quot;https://corteximplant.com/@jadedtwin/114246693812665573&quot;&gt;stickered laptops&lt;/a&gt;, &lt;a href=&quot;https://profiles.wordpress.org/akirk/&quot;&gt;Alex&lt;/a&gt; talks about &lt;a href=&quot;https://dothewoo.io/decentralized-social-networks-wordpress-with-alex-kirk/&quot;&gt;decentralized social networks &amp;amp; WordPress&lt;/a&gt;, &lt;a href=&quot;https://elenarossini.com/about/&quot;&gt;Elena&lt;/a&gt; writes about &lt;a href=&quot;https://blog.elenarossini.com/peertube-the-fediverses-decentralized-video-platform-part-2-creator-edition/&quot;&gt;PeerTube&lt;/a&gt; and &lt;a href=&quot;https://blog.funkwhale.audio/2025-funkwhale-2-news.html&quot;&gt;Funkwhale has an update&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;Want some weekend cyber-readz? &lt;em&gt;I gotcha&lt;/em&gt;. &lt;a href=&quot;https://pagedout.institute/download/PagedOut_006.pdf&quot;&gt;Paged Out! v.6&lt;/a&gt; has dropped, &lt;a href=&quot;https://takeonme.org/cve/&quot;&gt;AHA! has some CVE writeups&lt;/a&gt;, Rasta explains how to &lt;a href=&quot;https://rastamouse.me/kerberoasting-without-tgs-reqs/&quot;&gt;Kerberoast w/o the TGS-REQ&lt;/a&gt;, &lt;a href=&quot;https://lorenzomeacci.com&quot;&gt;Lorenzo&lt;/a&gt; shares a variety of &lt;a href=&quot;https://lorenzomeacci.com/advanced-initial-access-techniques&quot;&gt;advanced initial access techniques&lt;/a&gt; and &lt;a href=&quot;https://predr.ag/about&quot;&gt;Predrag&lt;/a&gt; laughs about some &lt;a href=&quot;https://predr.ag/blog/xorry-not-sorry-most-amusing-security-flaws-ive-discovered/&quot;&gt;infosec sillies he’s encountered&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hungering for more acronyms and methodologies? You’re in infosec, so &lt;strong&gt;of course you are&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.splunk.com/en_us/blog/security/threat-hunting-documentation-snare-framework-guide.html&quot;&gt;SNARE&lt;/a&gt;&lt;/strong&gt;: A guide to documentation for threat hunters&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://ismsmappings.softr.app&quot;&gt;ISMS Mappings&lt;/a&gt;&lt;/strong&gt;: A tool for mapping compliance frameworks&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.tlctc.net&quot;&gt;TLCTC&lt;/a&gt;&lt;/strong&gt;: Defines threat categories to connect strategic planning to operational security&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://asvs.dev/v5.0.draft/0x02-Preface/&quot;&gt;ASVS v5&lt;/a&gt;&lt;/strong&gt;: The next-generation framework for defining security requirements for modern web applications and services&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally, here’s a grab-bag of other infosec-goodies…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get inspired by &lt;a href=&quot;https://hackerstrategies.org&quot;&gt;Hacker Strategies&lt;/a&gt; from the ever-inspirational (to me) &lt;a href=&quot;https://taggart-tech.com/about/&quot;&gt;M. Taggart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://infosec.exchange/@merill&quot;&gt;Merill Fernando&lt;/a&gt;’s podcast &lt;a href=&quot;https://podcasts.apple.com/gb/podcast/entra-chat/id1801200012&quot;&gt;Entra.Chat&lt;/a&gt; shares best practices (and more) for those in the Microsoft identity world&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tisiphone.net/about/&quot;&gt;Lesley&lt;/a&gt; laments the not-so-genuine “&lt;a href=&quot;https://tisiphone.net/2025/04/01/lesley-what-happened-to-the-cybersecurity-skills-shortage/&quot;&gt;Cybersecurity Skills Shortage&lt;/a&gt;”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ovelny.sh/about&quot;&gt;ovelny&lt;/a&gt; has a &lt;a href=&quot;https://ovelny.sh&quot;&gt;cool blog&lt;/a&gt;. Go look at it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading&lt;/em&gt;. Peace out! ✨ ✌️ ✨&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.art/@StuntmAEn_Bob/114263847577237539&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/peaceful-night.png&quot; alt=&quot;Peaceful night at the ocean&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Apr 2025 09:00:00 -0400</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-04-04</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-04-04</guid>
+      </item>
+    
+      <item>
+        <title>Scroll novem</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume nine</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms. This week we go old-school with webrings, emphasize the importance of the Fediverse, and see ghosts in the machine.</p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume nine&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms. This week we go old-school with webrings, emphasize the importance of the Fediverse, and see ghosts in the machine.&lt;/p&gt;
+
+&lt;p&gt;No time to waste—let’s &lt;a href=&quot;https://mementomori.social/@laamaa/114233023259339493&quot;&gt;vibe&lt;/a&gt; and &lt;a href=&quot;https://mstdn.social/@AaronReuland/114225527017318931&quot;&gt;scroll&lt;/a&gt;! 🎶&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;Blogging is a journey of &lt;strong&gt;learning and self-discovery&lt;/strong&gt;. To get the most out of your blog, and your presence as part of the &lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;IndieWeb&lt;/a&gt;, you must &lt;a href=&quot;https://theprivacydad.com/on-writing-the-privacy-dad-blog/&quot;&gt;continuously&lt;/a&gt; find ways to &lt;em&gt;fuel&lt;/em&gt; that creative fire—to &lt;a href=&quot;https://bloggingwithoutablog.com&quot;&gt;be motivated&lt;/a&gt;, to write, and to express yourself. At times, this will mean fighting &lt;a href=&quot;https://hamatti.org/posts/i-combat-impostor-syndrome-with-building-in-public/&quot;&gt;impostor syndrome&lt;/a&gt;, combatting laziness/fatigue, overcoming writers block or just &lt;a href=&quot;https://hamatti.org/posts/track-software-versions-for-technical-blog-posts/&quot;&gt;worrying about outdated content on your site&lt;/a&gt;. In my experience, you overcome these obstacles with a steady dose of &lt;strong&gt;learning&lt;/strong&gt; (e.g. learn more about &lt;a href=&quot;https://harrisonbroadbent.com/blog/cool-native-html-elements/&quot;&gt;HTML&lt;/a&gt; and &lt;a href=&quot;https://ishadeed.com/article/css-relative-colors/&quot;&gt;CSS&lt;/a&gt;) &amp;amp; &lt;strong&gt;&lt;a href=&quot;https://thehtml.review/&quot;&gt;inspiration&lt;/a&gt;&lt;/strong&gt;. These tend to get the creative juices, and &lt;a href=&quot;https://blog.avas.space/daily-blogging/&quot;&gt;stream-of-ideas&lt;/a&gt;, &lt;em&gt;a&lt;/em&gt;-flowin’.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Honestly though&lt;/em&gt;, the provenance of &lt;em&gt;most&lt;/em&gt; of my best ideas comes not from within, but rather from &lt;u&gt;all of you&lt;/u&gt;—the larger IndieWeb community. The wellspring of creativity that can be tapped into is positively endless, you need only take the time to discover even a handful of other awesome sites, blogs &amp;amp; web-gardens out there to start benefiting. &lt;strong&gt;Webrings&lt;/strong&gt; are a classic, old-web-style take on discovering new sites and also socializing / networking with like-minded folks. I’ve been cataloguing interesting Webrings I’ve encountered &lt;a href=&quot;https://shellsharks.com/indieweb#webrings&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;https://brisray.com/utils/contact.htm&quot;&gt;brisray&lt;/a&gt; has a huge list &lt;a href=&quot;https://brisray.com/web/webring-list.htm&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://goblin-heart.net/sadgrl/about/&quot;&gt;sadgrl&lt;/a&gt; has yet another list &lt;a href=&quot;https://goblin-heart.net/sadgrl/cyberspace/webrings&quot;&gt;here&lt;/a&gt;! Take some time to peruse these rings for sites you think are cool, and maybe even join a webring or two—or &lt;em&gt;more&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;But there’s more &lt;strong&gt;IndieWeb-related social constructs&lt;/strong&gt; to consider… &lt;a href=&quot;https://robalexdev.com&quot;&gt;Robert&lt;/a&gt; published a post on how &lt;a href=&quot;https://alexsci.com/blog/blogroll-network/&quot;&gt;RSS blogrolls could be used as a federated social network&lt;/a&gt; (an idea that &lt;a href=&quot;https://reillyspitzfaden.com/notes/2025/03/blogrolls-social-network/&quot;&gt;Reilly&lt;/a&gt; has taken off with) and &lt;a href=&quot;https://lazybea.rs/hyde.stevenson/&quot;&gt;Hyde&lt;/a&gt; has a &lt;a href=&quot;https://lazybea.rs/ovr-010/&quot;&gt;series&lt;/a&gt; in which he features other &lt;a href=&quot;#indieblogs&quot;&gt;IndieBloggers&lt;/a&gt; from across the net. The common trait amongst these things (i.e. webrings, blogrolls, etc…) is that they are uniquely &lt;u&gt;non&lt;/u&gt;-&lt;a href=&quot;https://knightcolumbia.org/content/into-the-drivers-seat-with-social-media-content-feeds&quot;&gt;algorithmic&lt;/a&gt; (in the common sense). These are home-grown curations—human in the best of ways. &lt;em&gt;and&lt;/em&gt; Remember! Use some form of &lt;a href=&quot;https://jamesg.blog/2025/03/21/web-readers-and-rss-readers&quot;&gt;web/RSS reader&lt;/a&gt; to follow everything you find and like! For example, here’s some &lt;a href=&quot;#indieblogs&quot;&gt;awesome sites&lt;/a&gt; I’ve discovered recently!…&lt;/p&gt;
+
+&lt;h3 id=&quot;indieblogs&quot;&gt;IndieBlogs&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lostletters.neocities.org&quot;&gt;Lost Letters&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://lostletters.neocities.org/about-me/&quot;&gt;lost&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://caffeineandlasers.com&quot;&gt;Caffeine &amp;amp; Lasers&lt;/a&gt; &lt;em&gt;by&lt;/em&gt; &lt;a href=&quot;https://caffeineandlasers.com/contact.html&quot;&gt;Cameron&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chupson.dev/blog/&quot;&gt;chupson.dev&lt;/a&gt; &lt;em&gt;by&lt;/em&gt; &lt;a href=&quot;https://chupson.dev/contact/&quot;&gt;chupson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ellesho.me/page/&quot;&gt;ellesho.me&lt;/a&gt; &lt;em&gt;by&lt;/em&gt; elle&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vinizinho.net&quot;&gt;vinizinho.net&lt;/a&gt; &lt;em&gt;by&lt;/em&gt; &lt;a href=&quot;https://vinizinho.net/about&quot;&gt;vinizinho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(&lt;em&gt;Also&lt;/em&gt;, &lt;strong&gt;booooooooo&lt;/strong&gt; &lt;a href=&quot;https://go-to-hellman.blogspot.com/2025/03/ai-bots-are-destroying-open-access.html&quot;&gt;AI crawlers&lt;/a&gt; and &lt;a href=&quot;https://janerationx.com/posts/fuck-substack&quot;&gt;Substack&lt;/a&gt; 🤖🤮)&lt;/p&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;You should &lt;a href=&quot;https://ayos.blog/why-fediverse/&quot;&gt;care about the Fediverse&lt;/a&gt;&lt;/strong&gt;. This is &lt;em&gt;doubly&lt;/em&gt; true if you care about the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;. &lt;em&gt;Triply&lt;/em&gt; true if you &lt;a href=&quot;https://cybercultural.com/p/web-values/&quot;&gt;value an open web&lt;/a&gt;. The fact is, social media is big business—this is &lt;em&gt;because&lt;/em&gt; it is important. The &lt;a href=&quot;https://shellsharks.com/fediverse&quot;&gt;Fediverse&lt;/a&gt; may not be “big business” in the traditional sense, but this is why it is &lt;em&gt;that much more&lt;/em&gt; of a big deal. It is an opportunity to do social media in an ethical, &lt;a href=&quot;https://socialmediaalternatives.org/2025/03/07/theophilos.html&quot;&gt;open&lt;/a&gt;, sustainable, &lt;a href=&quot;https://blog.avas.space/no-trust/&quot;&gt;trustworthy&lt;/a&gt; and truly &lt;u&gt;human&lt;/u&gt; way.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://forbetter.ghost.io/spring-on-the-social-web/&quot;&gt;Spring has sprung on the Social Web&lt;/a&gt;! So let’s crawl out of our physical and metaphysical holes we’ve been hiding away in and get out there and &lt;strong&gt;&lt;a href=&quot;https://onemanandhisblog.com/2025/03/the-federated-one-man-his-blog/&quot;&gt;get social&lt;/a&gt;&lt;/strong&gt;! This could be as easy as &lt;a href=&quot;https://caffeineandlasers.com/blogs/embeddingYourLatestMastodonPost.html&quot;&gt;embedding Mastodon posts&lt;/a&gt; on your &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt; site, or maybe you could actually &lt;a href=&quot;https://deadsuperhero.com/you-know-what-meet-your-heroes/&quot;&gt;meet people in real life&lt;/a&gt;, or it could be just finding your particular social niche—like in &lt;a href=&quot;https://the.socialmusic.network/t/hello-federated-world/143&quot;&gt;music&lt;/a&gt; or &lt;a href=&quot;https://instapix.org/p/admin/808747427903754259&quot;&gt;imagery&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Afterall, the Fediverse has just about &lt;a href=&quot;https://booping.synth.download/notes/a5jvwxoyzcm9084n&quot;&gt;everything&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;This-week-in-cyber&lt;/em&gt; can be described as a tale-of-two-sections—“&lt;a href=&quot;#learnins--musins&quot;&gt;Learnin’s &amp;amp; Musin’s&lt;/a&gt;” and “&lt;a href=&quot;#threatz--hax&quot;&gt;Threatz &amp;amp; Hax&lt;/a&gt;“…&lt;/p&gt;
+
+&lt;h3 id=&quot;learnins--musins&quot;&gt;Learnin’s &amp;amp; Musin’s&lt;/h3&gt;
+
+&lt;p&gt;The always-awesome &lt;a href=&quot;https://tmpout.sh/4/&quot;&gt;TMPOUT has published Vol. 4&lt;/a&gt; of their zine, I found some &lt;a href=&quot;https://moxie.org/2015/02/24/gpg-and-me.html&quot;&gt;old thoughts from Moxie about GPG&lt;/a&gt;, and &lt;a href=&quot;https://barghest.asia/en/&quot;&gt;Barghest&lt;/a&gt; has a wealth of interesting threat &lt;a href=&quot;https://barghest.asia/en/categories/research/&quot;&gt;research&lt;/a&gt; and &lt;a href=&quot;https://barghest.asia/en/categories/forensics-tools/&quot;&gt;forensic tools&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;threatz--hax&quot;&gt;Threatz &amp;amp; Hax&lt;/h3&gt;
+
+&lt;p&gt;Would be a &lt;em&gt;very strange&lt;/em&gt; week if there &lt;u&gt;weren&apos;t&lt;/u&gt; a few horrific hacks, breaches and incidents to link to now wouldn’t it? This week is pretty &lt;em&gt;normal&lt;/em&gt; though… We’ve got &lt;a href=&quot;https://www.cloudsek.com/blog/the-biggest-supply-chain-hack-of-2025-6m-records-for-sale-exfiltrated-from-oracle-cloud-affecting-over-140k-tenants&quot;&gt;the Biggest Supply Chain Hack Of 2025&lt;/a&gt;, another nasty &lt;a href=&quot;https://www.praetorian.com/blog/codeqleaked-public-secrets-exposure-leads-to-supply-chain-attack-on-github-codeql/&quot;&gt;supply chain attack on GitHub CodeQL&lt;/a&gt; and some nice work on &lt;a href=&quot;https://aaronschlitt.de/threat-modelling-and-analyzing-iphone-mirroring/&quot;&gt;threat modelling and analyzing iPhone mirroring&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.social/@patricbates/114218888621161064&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/ghosts-in-the-machine.jpg&quot; alt=&quot;Ghosts in the Machine&quot; width=&quot;350px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, and let’s not forget the awesome &lt;a href=&quot;#indiesec-blogs&quot;&gt;IndieSec bloggers&lt;/a&gt; I’ve discovered this week!&lt;/p&gt;
+
+&lt;h6 id=&quot;indiesec-blogs&quot;&gt;IndieSec Blogs&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://terawhiz.github.io/about/&quot;&gt;terawhiz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.jackrendor.dev/about&quot;&gt;Jack Rendor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zhero-web-sec.github.io/whoami/&quot;&gt;zhero_web_security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://securingeverything.ca/about.html&quot;&gt;Securing Everything&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.columbia.edu/~smb/blog/control/about.html&quot;&gt;Steve Bellovin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://retr0.blog&quot;&gt;retr0blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.art/@LouisPretends/113827992862455203&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/window-into-another-world.gif&quot; alt=&quot;a window into another world&quot; width=&quot;500px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Mar 2025 01:45:00 -0400</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-03-28</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-03-28</guid>
+      </item>
+    
+      <item>
+        <title>Scroll octo</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume eight</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms. This week we work on our <s>selves</s> sites, consider how we want to use social media, and learn to hunt for dead bodies (<em>of code</em>).</p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume eight&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms. This week we work on our &lt;s&gt;selves&lt;/s&gt; sites, consider how we want to use social media, and learn to hunt for dead bodies (&lt;em&gt;of code&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Scrolls is as much a place for me to highlight cool content as it is a vehicle for me to boost and spotlight the actual &lt;u&gt;people&lt;/u&gt; from these vibrant communites. That’s the thing about the IndieWeb, and about the Fediverse—it’s not about raw numbers, it’s not about &lt;em&gt;being a content creator&lt;/em&gt;, it’s not about followers. It’s about being yourself, an actual person, and building actual relationships, as you would in real life. When you see it through that lens, you start to appreciate the handful of meaningful interactions you have &lt;em&gt;here&lt;/em&gt; more than finding some engagement maxima on other platforms. Scrolls is my personal way of saying, “&lt;em&gt;hey, I saw this thing you posted, I read it, and I liked it enough that I wanted to write about it or share it out from my site&lt;/em&gt;.” It is as much a direct message to those &lt;em&gt;individuals&lt;/em&gt; as it is a broadcast to everyone who has subscribed or otherwise reads this publication. I hope this motivates &lt;strong&gt;you&lt;/strong&gt; to write, share and connect—in this same organic, neighborly way!&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://aboutmonica.com/blog/hello-indie-web/&quot;&gt;Hello, IndieWeb&lt;/a&gt; folks! How is your site comin’ along these days? (&lt;em&gt;If you’ve had the time to &lt;a href=&quot;https://ww0cj.bearblog.dev/the-era-of-the-personal-website/&quot;&gt;get one goin’&lt;/a&gt;.&lt;/em&gt;) Don’t worry if it isn’t &lt;em&gt;finished&lt;/em&gt;, it’s never supposed to be! Your &lt;u&gt;indie&lt;/u&gt; site is afterall, a reflection of your self—incomplete, imperfect and forever &lt;strong&gt;&lt;a href=&quot;https://tech.lgbt/@mildsunrise/114051280744102700&quot;&gt;under construction&lt;/a&gt;&lt;/strong&gt;. Don’t sweat the “big” things you &lt;em&gt;think&lt;/em&gt; you need to add to the site, it just needs to be a fun place &lt;a href=&quot;https://indieweb.social/@thesmallweb/114178660221477497&quot;&gt;for you&lt;/a&gt; to &lt;a href=&quot;https://forkingmad.blog/things-i-most-definitely-do/&quot;&gt;share yourself&lt;/a&gt;, and the &lt;a href=&quot;https://om.co/2025/03/16/my-new-daily-blog/&quot;&gt;other things you find&lt;/a&gt; that you like. Remember, it’s &lt;a href=&quot;https://justafucking.site&quot;&gt;just a fu**ing site&lt;/a&gt;. 😄&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.art/@LouisPretends/114160798770293613&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/underconstruction.gif&quot; alt=&quot;Under Construction&quot; width=&quot;500px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking for more motivation on &lt;strong&gt;why you should join the IndieWeb&lt;/strong&gt;? Well, if escaping any of &lt;u&gt;THESE&lt;/u&gt; ⬇️ isn’t reason enough for ya…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.social/@jgilbert/114123924487762209&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/enshittification.png&quot; alt=&quot;Enshittification&quot; width=&quot;600px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;…consider the following reason. Maybe you just &lt;em&gt;&lt;a href=&quot;https://vzqk50.com/why/&quot;&gt;have stuff to say&lt;/a&gt;&lt;/em&gt;, and want to say it in a place that fits your &lt;a href=&quot;https://lifeofpablo.com/blog/self-expression-indieweb-carnival-march-2025&quot;&gt;creative vibe&lt;/a&gt; (like &lt;a href=&quot;https://skippy.net/self-expression&quot;&gt;skippy&lt;/a&gt; has done!). The only way you can fail, &lt;a href=&quot;https://sylvia.studio/posts/dear-creative-soul-dare-to-fail-mightily&quot;&gt;is to not try&lt;/a&gt;—and don’t worry, you &lt;a href=&quot;https://ryanashcraft.com/indie-not-alone/&quot;&gt;won’t be alone&lt;/a&gt; out here! You’ll join the likes of &lt;a href=&quot;https://calebh.top&quot;&gt;Caleb&lt;/a&gt;, &lt;a href=&quot;https://stevenbrady.com/blog-questions-challenge-travel-adventures&quot;&gt;Steven&lt;/a&gt;, &lt;a href=&quot;https://tahimik.com/journal/week-note-32&quot;&gt;Isa&lt;/a&gt; and one of my long-time favorites, &lt;a href=&quot;https://flamedfury.com/posts/monthly-recap-february-2025/&quot;&gt;Flamed&lt;/a&gt;—as well as countless others. Be a part of the movement!&lt;/p&gt;
+
+&lt;p&gt;Here’s some wisdom I’ve collected recently from the IndieWeb community on &lt;a href=&quot;https://louplummer.lol/how-to-make-me-like-your-blog/&quot;&gt;making your blog likable&lt;/a&gt; (and thus &lt;a href=&quot;https://blog.avas.space/comfort-bloggers/&quot;&gt;becoming a mainstay&lt;/a&gt; in someone’s RSS reader) and &lt;a href=&quot;https://hamatti.org/posts/view-source-explorers-welcome/&quot;&gt;how to make your site accessible for those looking to learn&lt;/a&gt; and follow in your footsteps.&lt;/p&gt;
+
+&lt;p&gt;Once you have a nice li’l home for yourself on the web, maybe you can open it up and &lt;a href=&quot;https://creaturesinsi.de/shelter&quot;&gt;adopt a li’l creature&lt;/a&gt; too! Here’s my lovable new addition to the &lt;span class=&quot;shellsharks&quot;&gt;Shellsharks&lt;/span&gt; family. ⬇️&lt;/p&gt;
+
+&lt;center&gt;&lt;a href=&quot;https://creaturesinsi.de/members&quot;&gt;&lt;img src=&quot;/assets/img/sandog_03_gen1.png&quot; title=&quot;Hex&quot; /&gt;&lt;/a&gt;&lt;/center&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;Much like the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, the &lt;a href=&quot;https://shellsharks.com/fediverse&quot;&gt;Fediverse&lt;/a&gt; is a place to &lt;a href=&quot;https://infosec.exchange/@Em0nM4stodon/114173864564420788&quot;&gt;be yourself&lt;/a&gt;. But getting the &lt;em&gt;most&lt;/em&gt; out of it as a social network, specifically one where you mean to actually be &lt;em&gt;social&lt;/em&gt;, and not one you use &lt;a href=&quot;https://mkultra.monster/social-media/2025/03/13/social-media-was-good-for-a-while&quot;&gt;solely as a megaphone&lt;/a&gt;, isn’t necessarily simple. You have to make concious, explicit decisions about how you &lt;a href=&quot;https://theresmiling.eu/blog/2025/03/social-media-use&quot;&gt;plan to use&lt;/a&gt; the &lt;a href=&quot;https://fredrocha.net/2025/03/18/how-i-use-mastodon-in-2025/&quot;&gt;platform(s)&lt;/a&gt;. The Fediverse is uniquely, un-algorithmic in nature (&lt;em&gt;at least in the traditional sense&lt;/em&gt;), and thus requires &lt;a href=&quot;https://wedistribute.org/2025/03/website-league-island-networks/&quot;&gt;manual care&lt;/a&gt; to &lt;a href=&quot;https://anders.thoresson.se/post/2025/03/condensing-the-iceberg/&quot;&gt;tune the feeds and respective clients to your liking&lt;/a&gt;. It’s this from-scratch, build-your-experience model that enables the Fediverse to be a place that is non-extractive—somewhere you actually &lt;em&gt;enjoy&lt;/em&gt; to be because you aren’t there to necessarily sell yourself, or be sold to.&lt;/p&gt;
+
+&lt;p&gt;Unlike the centralized social platforms, the Fediverse has an insanely vibrant assortment of platforms, clients, initiatives and connected services. Just in this past week I discovered a ton of interesting projects—&lt;a href=&quot;https://betula.mycorrhiza.wiki&quot;&gt;Betula&lt;/a&gt; is a tool for saving bookmarks or maintaining a linklog, &lt;a href=&quot;https://forgefed.org&quot;&gt;ForgeFed&lt;/a&gt; is a federation protocol for software forges / code collaboration tools, &lt;a href=&quot;https://badges.vocalcat.com&quot;&gt;BadgeFed&lt;/a&gt; empowers communities to issue and verify badges, &lt;a href=&quot;https://mszpro.com/myo&quot;&gt;Myo&lt;/a&gt; is a photo-centric app compatible with the Fediverse &lt;em&gt;and&lt;/em&gt; Bluesky / Nostr, &lt;a href=&quot;https://techcrunch.com/2025/02/11/tumblr-to-join-the-fediverse-after-wordpress-migration-completes/&quot;&gt;Tumblr plans on joining the Fediverse&lt;/a&gt; soon, &lt;a href=&quot;https://ghost.org&quot;&gt;Ghost&lt;/a&gt; &lt;em&gt;has just&lt;/em&gt; &lt;a href=&quot;https://techcrunch.com/2025/03/19/substack-rival-ghost-is-now-connected-to-the-fediverse/&quot;&gt;connected to the Fediverse&lt;/a&gt;, &lt;a href=&quot;https://fedivents.blog&quot;&gt;Fedivents&lt;/a&gt; is a gateway to the world of Federated Community Events and there’s &lt;a href=&quot;https://halcy.de/blog/2025/03/18/silly-mastodon-apps/&quot;&gt;so many other li’l apps of the Fediverse&lt;/a&gt; out there to discover, with more &lt;a href=&quot;https://blog.anew.social/breaking-ground/&quot;&gt;breaking ground&lt;/a&gt; every week. If you’re interested you can even track/search all Fediverse Enhacement Proposals (FEPs) using this &lt;a href=&quot;https://fep-search.glitch.me&quot;&gt;handy-dandy search tool&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;So what has the lovely &lt;s&gt;hellscape&lt;/s&gt; landscape of cyberia brought to us this week?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Oh jeez&lt;/em&gt;… &lt;a href=&quot;https://pad.rev.ng/s/CwdCrM68Z#&quot;&gt;dead bodies&lt;/a&gt;, &lt;a href=&quot;https://portswigger.net/research/saml-roulette-the-hacker-always-wins&quot;&gt;hacker roulette&lt;/a&gt; and “&lt;a href=&quot;https://cacm.acm.org/research/exploiting-cross-layer-vulnerabilities-off-path-attacks-on-the-tcp-ip-protocol-suite/&quot;&gt;off-path attacks&lt;/a&gt;”? Never a boring day &lt;em&gt;eh?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Counter some of that bad juju with some &lt;a href=&quot;https://haunted.computer/@tmpout/114191447564755185&quot;&gt;good vibes&lt;/a&gt;—&lt;a href=&quot;http://www.dfirnotes.net/development_plan_2025/&quot;&gt;learn&lt;/a&gt; about &lt;a href=&quot;https://tamarin-prover.com/book/&quot;&gt;modeling security protocols with Tamarin&lt;/a&gt;, &lt;a href=&quot;https://www.digitalocean.com/blog/digitalocean-security-debt&quot;&gt;contextualizing vulnerabilities&lt;/a&gt; using security risk, &lt;a href=&quot;https://dispatch.thorcollective.com/p/introducing-hearth&quot;&gt;threat hunting&lt;/a&gt; &lt;em&gt;community-style&lt;/em&gt;, how to &lt;a href=&quot;https://www.wrongsecrets.com&quot;&gt;manage secrets&lt;/a&gt; and/or just learn a bit about &lt;a href=&quot;https://carrickbartle.com/certificates.html&quot;&gt;TLS certs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Looking for a way to contribute and give back? Consider lending your thoughts to the &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfHx_-HdqC8sYYkv5zZgDa6Blv2pIxHvj3dyjQEVemPMhaCVg/viewform&quot;&gt;State of Threat Modeling (SOTM) 2024 Survey&lt;/a&gt; or to the &lt;a href=&quot;https://bishopfox.com/redteam-tools-showdown&quot;&gt;Red Team Tool Showdown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Last, but never least, here’s some cool indie infosec folks I’ve discovered recently.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mastersplinter.work/research/&quot;&gt;Tobia Righi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://reserge.org/blog/&quot;&gt;Re: Serge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wts.dev/posts/&quot;&gt;Noah Gregory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cybersecuritycrumbs.cryptopathe.me&quot;&gt;Crumbs of Cybersecurity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading. Adventure on, friend!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pixelfed.social/p/mneagoe/805230130983641583&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/unknown-knight-adventure.jpg&quot; alt=&quot;Unknown Knight&apos;s Adventure&quot; width=&quot;400px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Mar 2025 00:01:00 -0400</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-03-21</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-03-21</guid>
+      </item>
+    
+      <item>
+        <title>Scroll septem</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume seven</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms. This week, we conquer doubt, recognize the primacy of the Fediverse, and look at some <em>super-duper-serious</em> cyber stuff.</p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume seven&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms. This week, we conquer doubt, recognize the primacy of the Fediverse, and look at some &lt;em&gt;super-duper-serious&lt;/em&gt; cyber stuff.&lt;/p&gt;
+
+&lt;p&gt;Before getting into this week’s ever-so-magical bits &amp;amp; bytes, I wanted to quickly chat about &lt;strong&gt;how I source the content&lt;/strong&gt; for this publication. Unsurprisingly, it’s from the respective &lt;em&gt;IndieWeb&lt;/em&gt;, &lt;em&gt;Fediverse&lt;/em&gt; &amp;amp; &lt;em&gt;Cybersecurity&lt;/em&gt; communities. More specifically though, I find a lot by following the &lt;em&gt;&lt;a href=&quot;https://shellsharks.social/tags/indieweb&quot;&gt;#indieweb&lt;/a&gt;&lt;/em&gt; hashtag on the &lt;a href=&quot;https://shellsharks.com/fediverse&quot;&gt;Fediverse&lt;/a&gt;, through my existing &lt;a href=&quot;https://shellsharks.com/infosec-blogs&quot;&gt;RSS feed&lt;/a&gt; that I’ve curated over many years, and from all my &lt;a href=&quot;https://shellsharks.social/@shellsharks/following&quot;&gt;awesome follows&lt;/a&gt; on Fedi—a lot of whom are in the infosec industry.&lt;/p&gt;
+
+&lt;p&gt;So what’s the &lt;strong&gt;best way to consume Scrolls?&lt;/strong&gt; Scroll, open a lot of links, read, and then scroll some more! The &lt;em&gt;magic&lt;/em&gt; comes from y’all, I just put it together. 😄&lt;/p&gt;
+
+&lt;p&gt;Here’s &lt;u&gt;you&lt;/u&gt;, readying yourself for the scrolling ahead!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.art/@shaferbrown/112524787374709012&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/scroll-7/crystal-sorcerer.png&quot; alt=&quot;Crystal Sorcerer&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📢 Shoutout to my good friend, and &lt;em&gt;SUPER&lt;/em&gt; talented artist &lt;a href=&quot;https://www.instagram.com/angryrolypoly/&quot;&gt;angryrolypoly&lt;/a&gt; for whipping up the new Scrolls logo!&lt;/p&gt;
+
+&lt;p&gt;🤗 Also, I want to thank &lt;a href=&quot;https://social.lol/@humdrum&quot;&gt;Kevin&lt;/a&gt; for creating some other scrolls art that I’ve also used at the bottom of this edition!&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;The best time to &lt;strong&gt;get started with a personal website&lt;/strong&gt; was &lt;a href=&quot;https://cybercultural.com/p/geocities-1995/&quot;&gt;in 1995&lt;/a&gt; 😄. The second best time is today! Your &lt;a href=&quot;https://coffeenow.moomop.uk/post/2025/03/indieweb-ii/&quot;&gt;home on the web&lt;/a&gt; will undoubtedly have humble beginnings, but &lt;a href=&quot;https://jamesg.blog/2025/03/13/website-reflections&quot;&gt;over time&lt;/a&gt; it can grow into something you can be incredibly proud of. There’s really so many &lt;a href=&quot;https://web.pixelshannon.com/freehosts/&quot;&gt;resources&lt;/a&gt; available to you to get started, or &lt;a href=&quot;https://drcrankypants.com/blog/starting-over.html&quot;&gt;start over&lt;/a&gt;—there’s really no excuse to not take the plunge!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.social/@Viss/114113347870184740&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/scroll-7/come-on-in.png&quot; alt=&quot;Come on in. The water&apos;s fine&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For many, the reason &lt;em&gt;why&lt;/em&gt; they don’t (create a personal website or blog), is &lt;u&gt;&lt;b&gt;&lt;a href=&quot;https://www.eddiedale.com/blog/doubt&quot;&gt;doubt&lt;/a&gt;&lt;/b&gt;&lt;/u&gt;. But as I’ve said before, having a website &lt;a href=&quot;https://shellsharks.com/notes/2024/04/17/having-a-website-is-about-you&quot;&gt;doesn’t need to be about blogging&lt;/a&gt;, and honestly, regardless of what you write, I &lt;em&gt;know you will&lt;/em&gt; &lt;a href=&quot;https://shellsharks.com/notes/2024/03/13/you-have-something-to-say-someone-will-listen&quot;&gt;have an audience&lt;/a&gt;. So &lt;a href=&quot;https://ibe.social/notes/a54ze7fogu&quot;&gt;be yourself&lt;/a&gt;, &lt;a href=&quot;https://infosec.exchange/@cR0w/114116251652861238&quot;&gt;just write&lt;/a&gt;—&lt;a href=&quot;https://manuelmoreale.com/how-personal-should-a-personal-site-be&quot;&gt;make it personal&lt;/a&gt; if you want, it &lt;a href=&quot;https://ohhelloana.blog/in-defense-of-unpolished-websites/&quot;&gt;doesn’t&lt;/a&gt; need to be &lt;a href=&quot;https://bjhess.com/posts/you-re-a-blogger-not-an-essayist&quot;&gt;perfect&lt;/a&gt;. Write about literally &lt;em&gt;&lt;a href=&quot;https://davegoesthedistance.com/.well-known/&quot;&gt;whatever you want&lt;/a&gt;&lt;/em&gt;, write about &lt;em&gt;anything&lt;/em&gt; you do, &lt;em&gt;hell&lt;/em&gt;, write about the &lt;a href=&quot;https://forkingmad.blog/things-i-dont-do/&quot;&gt;things you &lt;i&gt;don’t&lt;/i&gt; do&lt;/a&gt;. &lt;a href=&quot;https://manuelmoreale.com/about&quot;&gt;Manuel&lt;/a&gt; (for example) writes about things &lt;a href=&quot;https://manuelmoreale.com/pb-james&quot;&gt;others are doin’&lt;/a&gt;. &lt;em&gt;That’s cool&lt;/em&gt;! (&lt;em&gt;Whatever you do though, &lt;a href=&quot;https://mstdn.social/@Nickiquote/114133445601172798&quot;&gt;don’t use AI slop images&lt;/a&gt;&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sonomu.club/@gavcloud/114122605892487844&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/scroll-7/water-digital-garden.png&quot; alt=&quot;Have you watered your Digital Garden today&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Good question! Here’s some &lt;em&gt;more&lt;/em&gt; stuff you can do with your site once you’ve got it goin’.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;IndieWeb&lt;/a&gt; is a near-infinite wellspring of opportunities and &lt;a href=&quot;https://john.colagioia.net/blog/2024/03/20/indieweb-2.html&quot;&gt;ideas&lt;/a&gt; waiting to take root. Try participating in the monthly &lt;a href=&quot;https://artlung.com/blog/2025/03/07/blog-carnival-roundup/&quot;&gt;IndieWeb Carnival&lt;/a&gt;, publish your favorite &lt;a href=&quot;https://the100.pics&quot;&gt;pictures&lt;/a&gt;, improve your site’s &lt;a href=&quot;https://yatil.net/blog/wai-a-day&quot;&gt;accessibility&lt;/a&gt; capabilities or just tinker around and make other &lt;a href=&quot;https://axxuy.xyz/blog/posts/2025/websiteupgrades/&quot;&gt;little upgrades&lt;/a&gt;. You could even see what your site would look like &lt;a href=&quot;https://fyr.io/post/CSS_naked_day_2025_is_next_month&quot;&gt;sans-CSS&lt;/a&gt;. Some would say that’s the &lt;a href=&quot;https://motherfuckingwebsite.com&quot;&gt;ideal form of a website&lt;/a&gt;. 😆&lt;/p&gt;
+
+&lt;p&gt;Here’s some of my &lt;strong&gt;favorite personal sites&lt;/strong&gt; I’ve stumbled across this past week…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://moonlight.computer&quot;&gt;moonlight computer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nicksimson.com&quot;&gt;Nick Simson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ohhelloana.blog&quot;&gt;Ana Rodrigues&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nelsons.website&quot;&gt;nelsons.website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jskherman.com&quot;&gt;Je Sian Keith Herman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nicolas-hoizey.com&quot;&gt;Nicolas Hoizey&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://renkotsuban.com/index.html&quot;&gt;Renkon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sylvesterady.com/blog/&quot;&gt;Sylvester Ady&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://prettygoodhat.com/post/weeknotes-v/&quot;&gt;Pretty Good Hat | Weeknotes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;and&lt;/em&gt; &lt;a href=&quot;https://joelchrono.xyz/blog/2025-w10/&quot;&gt;Joel’s Week Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.joanwestenberg.com/the-fediverse-isnt-the-future-its-the-present-weve-been-denied/&quot;&gt;Fediverse is &lt;u&gt;now&lt;/u&gt;&lt;/a&gt;—we need only seize the opportunity to truly &lt;a href=&quot;https://schedule.sxsw.com/2025/events/PP147154&quot;&gt;own our digital identities&lt;/a&gt;, &lt;a href=&quot;https://destructured.net/future-fediverse-notes&quot;&gt;build&lt;/a&gt; sustainable+healthy &lt;a href=&quot;https://comment.mayfirst.org/t/cooperatives-and-free-software-orgs-on-the-fediverse/2696&quot;&gt;communities&lt;/a&gt;, and abandon the traditional corporate data silos and &lt;a href=&quot;https://usher.dev/posts/2025-03-08-kill-your-feeds/&quot;&gt;algorithmic dictators&lt;/a&gt; of this modern dystopic epoch. The Fedi’ is ready, so join today (&lt;em&gt;if you haven’t already&lt;/em&gt;), and bring your friends!&lt;/p&gt;
+
+&lt;p&gt;Maybe the Fediverse hasn’t reached any sort of adoption tipping point yet, &lt;em&gt;and that’s too bad&lt;/em&gt;. But it hasn’t stopped the gears from turning here. There &lt;em&gt;always&lt;/em&gt; seems to be a lot of building and innovating regardless. We’ll be ready if and when the time comes—to accept the masses, and show them the way.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.elenarossini.com/peertube-the-fediverses-decentralized-video-platform-part-1-first-impressions/&quot;&gt;PeerTube&lt;/a&gt;&lt;/strong&gt; is your go-to, federated solution for hosting videos.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.splitbrain.org/blog/2025-03/12-mastodon_to_gotosocial_migration&quot;&gt;GoToSocial&lt;/a&gt;&lt;/strong&gt; continues to prove a worthy platform to migrate to if you’re having instance/Mastodon-platform issues.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.joinmastodon.org/2025/03/trunk-tidbits-february-2025/&quot;&gt;Mastodon&lt;/a&gt;&lt;/strong&gt; keeps chugging along, publishing their Feburary 2025 engineering update. (Oh and &lt;a href=&quot;https://github.com/mastodon/mastodon/issues/9409#event-16708683816&quot;&gt;this is pretty exciting on the Mastodon front&lt;/a&gt; too)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://activitypub.ghost.org/actually-i-take-that-back/&quot;&gt;Ghost&lt;/a&gt;&lt;/strong&gt; continues their quest to fully implement ActivityPub within their platform.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://seppo.mro.name/en/about/&quot;&gt;Seppo&lt;/a&gt;&lt;/strong&gt; is a new idea in the federated, single-user, microblog space.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Platforms abound, but there’s even more to do and discover on the Fediverse! Find (&lt;em&gt;or build&lt;/em&gt;) &lt;a href=&quot;https://botwiki.org&quot;&gt;cool bots&lt;/a&gt; or make a &lt;a href=&quot;https://nashhigh.itch.io/fedi-cardmaker/devlog/902551/fedicard-sheet-template&quot;&gt;FediCard&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;I got a completely random assortment of cyber-bits-and-bobs for ya this week…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nroottag.github.io&quot;&gt;Tracking You from a Thousand Miles Away! Turning a Bluetooth Device into an Apple AirTag Without Root Privileges&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/t0sche/cvss-bt&quot;&gt;cvss-bt&lt;/a&gt;: Enriching the NVD CVSS scores to include Temporal/Threat Metrics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://store.steampowered.com/app/2429930/Power_Network_Tycoon/&quot;&gt;Power Network Tycoon&lt;/a&gt;: For the ICS-sec folks out there&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.compass-security.com/2025/03/bypassing-web-filters-part-1-sni-spoofing/&quot;&gt;Bypassing Web Filters Part 1: SNI Spoofing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dstotijn/hetty&quot;&gt;Hetty&lt;/a&gt;: a HTTP toolkit for security research.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://infosec.exchange/@timb_machine/114155527567995197&quot;&gt;Tim’s interesting linksof the week&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ctid.mitre.org/projects/attack-flow&quot;&gt;MITRE Attack Flow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Serious stuff! ‘&lt;em&gt;Cuz&lt;/em&gt; cyber is &lt;a href=&quot;https://crankysec.com/blog/twenty-percent/&quot;&gt;super serious&lt;/a&gt; right?&lt;/p&gt;
+
+&lt;p&gt;Before you go, take a look at these awesome &lt;u&gt;IndieSec&lt;/u&gt; blogs!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hacefresko.com&quot;&gt;hacefresk0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dayzerosec.com&quot;&gt;DayZeroSec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://scrapco.de/blog/&quot;&gt;Lingua Diabolis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;img src=&quot;/assets/img/scroll2.png&quot; width=&quot;75px&quot; /&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt; I bid you adieu from the enchanted “&lt;em&gt;Library of Scrolls&lt;/em&gt;”, as I imagine it below…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.social/@skeddles/114139044000020447&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/scroll-7/arcanopolis.png&quot; alt=&quot;Arcanopolis, the City of Alchemy and Sorcery&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Mar 2025 00:01:00 -0400</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-03-14</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-03-14</guid>
+      </item>
+    
+      <item>
+        <title>Scroll sextus</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume six</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms. This week, there is a focus on the tectonic shifts of the web, as we claw back our independence from “big tech”. Plus, you see me try <em>a little</em> harder to add some narrative color to the Cybersecurity section of this newsletter. <em>Let’s get scrollin’!</em></p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume six&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms. This week, there is a focus on the tectonic shifts of the web, as we claw back our independence from “big tech”. Plus, you see me try &lt;em&gt;a little&lt;/em&gt; harder to add some narrative color to the Cybersecurity section of this newsletter. &lt;em&gt;Let’s get scrollin’!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;There’s a lot of &lt;strong&gt;high-minded analysis&lt;/strong&gt; about the web these days. It seems a tipping point has been reached. Blame it on &lt;a href=&quot;https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys&quot;&gt;enshittification&lt;/a&gt;, blame it on &lt;a href=&quot;https://pivot-to-ai.com&quot;&gt;AI&lt;/a&gt;, blame it on the global rise of authoritarianism. Whatever the reason, a lot of words are being spilled in the name of the web as it &lt;em&gt;should be&lt;/em&gt;, as it &lt;em&gt;once was&lt;/em&gt;. These theses and essays have a commonality - we can &lt;a href=&quot;https://www.joanwestenberg.com/the-only-metrics-that-matter/&quot;&gt;make the web ours&lt;/a&gt;, we can &lt;a href=&quot;https://werd.io/2025/the-web-was-always-about-redistribution-of-power-lets-bring&quot;&gt;take back the power&lt;/a&gt;, we can &lt;a href=&quot;https://www.joanwestenberg.com/big-tech-wants-you-trapped-the-open-web-sets-you-free-2/&quot;&gt;escape&lt;/a&gt; the walls of “big tech”, and in doing so, enter a &lt;a href=&quot;https://dot-social.simplecast.com/episodes/molly-white&quot;&gt;new phase&lt;/a&gt; of the web, and of society.&lt;/p&gt;
+
+&lt;p&gt;Because right now, a lot of the web just &lt;em&gt;sucks&lt;/em&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://oslo.town/@matt/114105145337224862&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/the-internet-is-shit.png&quot; alt=&quot;Internet is shit&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Speaking of &lt;em&gt;shit&lt;/em&gt;, I gotta agree with &lt;a href=&quot;https://sfba.social/@maxsidman/114093724097357029&quot;&gt;Max&lt;/a&gt;, &lt;a href=&quot;https://mastodon.ie/@davey_cakes/114098627234924310&quot;&gt;Davey&lt;/a&gt; and &lt;a href=&quot;https://www.joanwestenberg.com/why-i-wont-write-on-substack/&quot;&gt;Joan&lt;/a&gt; - let’s not give Substack any more air. Urge the creators you like who are there to set up shop elsewhere, and don’t give them (Substack) any of your own time or content. You’re better off building almost anywhere else. It’s never been easier too! The resources available to you for &lt;a href=&quot;https://iamwillwang.com/every-html-element/&quot;&gt;learning&lt;/a&gt;, building, &lt;a href=&quot;https://pbs.bartificer.net/pbs177&quot;&gt;publishing&lt;/a&gt;, &lt;a href=&quot;https://patrickbrosset.com/lab/navigating-the-web-platform/&quot;&gt;navigating&lt;/a&gt; &lt;em&gt;whatever&lt;/em&gt; you need to do on the web, are &lt;u&gt;bountiful&lt;/u&gt;. You can &lt;em&gt;absolutely&lt;/em&gt; &lt;strong&gt;&lt;a href=&quot;https://codewordcreative.com/free-can-beat-crappy-how-to-diy-a-basic-website/&quot;&gt;do it yourself&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve got that stake in the ground, the world can really open up for you. There’s &lt;em&gt;so much&lt;/em&gt; &lt;a href=&quot;https://shellsharks.com/notes/2023/08/15/website-component-checklist&quot;&gt;you can do&lt;/a&gt;, so many ways to &lt;strong&gt;express yourself and have fun with a personal website&lt;/strong&gt;. &lt;a href=&quot;https://askdna.coffee/#about-me&quot;&gt;ask DNA&lt;/a&gt; published a &lt;a href=&quot;https://askdna.coffee/stuff/&quot;&gt;/stuff&lt;/a&gt; (similar to &lt;a href=&quot;https://slashpages.net/#uses&quot;&gt;/uses&lt;/a&gt;) page describing some of the the tech they use, &lt;a href=&quot;https://beej.us/bio/&quot;&gt;Beej&lt;/a&gt; added &lt;a href=&quot;https://beej.us/blog/data/mastodon-comments/&quot;&gt;Mastodon comments&lt;/a&gt; to his blog, I published my site’s &lt;a href=&quot;https://shellsharks.com/why&quot;&gt;guiding principles&lt;/a&gt;,  &lt;a href=&quot;https://forkingmad.blog/about/&quot;&gt;David&lt;/a&gt; wrote about the &lt;a href=&quot;https://forkingmad.blog/things-people-commonly-have-but-i-dont/&quot;&gt;things people commonly have, but he doesn’t&lt;/a&gt; and &lt;a href=&quot;https://joelchrono.xyz/about/&quot;&gt;Joel&lt;/a&gt; just wrote about &lt;a href=&quot;https://joelchrono.xyz/blog/going-out-by-myself&quot;&gt;goin’ outside and chillin’&lt;/a&gt;. You can do, or &lt;a href=&quot;https://cdevroe.com/2025/03/04/need-activitypub/&quot;&gt;not do&lt;/a&gt;, anything you want with your site! Though just a heads-up, if you don’t add an RSS feed to your blog, &lt;a href=&quot;https://chrishardie.com/about/&quot;&gt;Chris&lt;/a&gt; might literally &lt;a href=&quot;https://tech.chrishardie.com/2025/rss-feed-of-your-website/&quot;&gt;come to your house and generate that RSS feed&lt;/a&gt; for you 😆.&lt;/p&gt;
+
+&lt;p&gt;Here’s some other cool gems (sites and blogs) I’ve discovered from across the IndieWeb!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cernezan.com&quot;&gt;Žan Černe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sainthood.xyz&quot;&gt;Sainthood.xyz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.c82.net/natural-colors/&quot;&gt;The Natural System of Colours&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://www.c82.net&quot;&gt;Nicholas Rougeux&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://portfolio.andres-acre.com/2D_environment&quot;&gt;A Portfolio&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://portfolio.andres-acre.com&quot;&gt;Andrés&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://theresmiling.eu&quot;&gt;theresmiling.eu&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://theresmiling.eu/about&quot;&gt;Elena&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, time for my link dump of link dumps. Nothing dumpy about ‘em though!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A &lt;a href=&quot;https://kaigulliksen.com/link-dump-march-2025/&quot;&gt;Link Dump&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://kaigulliksen.com/about/&quot;&gt;Kai Gulliksen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://axxuy.xyz/blog/posts/2025/februaryreview/&quot;&gt;February in Review&lt;/a&gt; &lt;em&gt;via&lt;/em&gt; &lt;a href=&quot;https://axxuy.xyz/contact/&quot;&gt;Axxuy.xyz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lazybea.rs/aw/&quot;&gt;Activitywatch&lt;/a&gt; &lt;em&gt;via&lt;/em&gt; &lt;a href=&quot;https://lazybea.rs/hyde.stevenson/&quot;&gt;lazybea.rs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://nannnsss.omg.lol/2025/week-09-2025/&quot;&gt;weekly post&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://nannnsss.omg.lol/about/&quot;&gt;Nannnss&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Some “&lt;a href=&quot;https://felix.gripe/blog/athens-greeknotes-2025-03-02/&quot;&gt;Greeknotes&lt;/a&gt;” (&lt;em&gt;get it&lt;/em&gt;? Instead of “weeknotes”. Clever!) &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://felix.gripe/about/&quot;&gt;felix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This style of blogging is a current obsession of mine, so when I find new “weekly” / link-dump style blogs, I’ve been collecting and sharing 😃.&lt;/p&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;A lighter week for Fedi-fare, but there’s a couple of things to &lt;u&gt;listen&lt;/u&gt; to if you’re game for some podcastin’…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;i class=&quot;ph ph-microphone&quot;&gt;&lt;/i&gt; Mike McCue’s &lt;a href=&quot;https://dot-social.simplecast.com&quot;&gt;Dot Social&lt;/a&gt; podcast published their &lt;a href=&quot;https://about.flipboard.com/fediverse/chris-trottier/&quot;&gt;latest episode&lt;/a&gt; with “Fediverse Enthusiast” &lt;a href=&quot;https://atomicpoet.org/@atomicpoet&quot;&gt;Chris Trottier&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;i class=&quot;ph ph-microphone&quot;&gt;&lt;/i&gt; &lt;a href=&quot;https://dothewoo.io/host/matthias-pfefferle/&quot;&gt;Matthias Pfefferle&lt;/a&gt; published the first in a series related to the Fediverse, of his &lt;a href=&quot;https://dothewoo.io/podcasts/open-web-conversations/&quot;&gt;Open Web Conversations&lt;/a&gt; podcast, titled “&lt;a href=&quot;https://dothewoo.io/decentralized-social-networks-wordpress-with-alex-kirk/&quot;&gt;Decentralized Social Networks &amp;amp; WordPress with Alex Kirk&lt;/a&gt;”&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Now&lt;/em&gt;, let’s get the &lt;a href=&quot;https://infosec.exchange/@faker/114099947045310668&quot;&gt;cyber flowin’&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;What do we think 2025 has in store for us in the world infosec? If you guessed &lt;strong&gt;&lt;a href=&quot;https://www.veracode.com/resources/analyst-reports/state-of-software-security-2025/&quot;&gt;more risk&lt;/a&gt;, &lt;a href=&quot;https://www.searchenginejournal.com/analysis-forecasts-more-vulnerabilities-in-2025/540730/&quot;&gt;more vulnerabilities&lt;/a&gt; and more &lt;a href=&quot;https://blog.hartwork.org/posts/companies-fail-to-serve-security-txt-rfc-9116/&quot;&gt;security failures&lt;/a&gt;&lt;/strong&gt;, then you nailed it! &lt;em&gt;But&lt;/em&gt;, we soldier on. Since “vulns” are a topic (&lt;em&gt;aren’t they always?&lt;/em&gt;), let’s consider the ways to assess, and ultimately &lt;a href=&quot;https://www.ncsc.gov.uk/report/a-method-to-assess-forgivable-vs-unforgivable-vulnerabilities&quot;&gt;eradicate entire vulnerability classes&lt;/a&gt;. This research from the &lt;a href=&quot;https://www.ncsc.gov.uk&quot;&gt;NCSC&lt;/a&gt; attempts to distinguish vulns as either “forgivable” or “unforgivable”, assigning the latter to vulns with “easy” mitigations. A little root cause analysis and pressure on the vendors and &lt;em&gt;voila&lt;/em&gt;! Some security gainz, perhaps? Turning our attention to more recent vuln-news though, this week I’m checking out &lt;a href=&quot;https://hackaday.com/2025/02/28/this-week-in-security-malicious-themes-crypto-heists-and-wallbleed/&quot;&gt;Hackaday’s “This Week In Security”&lt;/a&gt; link dump and the always jam-packed &lt;a href=&quot;https://pathonproject.com/zb/?2a1b33c2b7191359#0b1smM7sFUJ1pQgbZLuBMm4j2gzuXnilLNhfixNtxIg=&quot;&gt;AppSec EZine&lt;/a&gt;. &lt;em&gt;Oh&lt;/em&gt;, and let’s not forget my favorite segment - the cool blogs of the &lt;a href=&quot;#recently-discovered-indiesec-blogs&quot;&gt;IndieSec&lt;/a&gt; world!&lt;/p&gt;
+
+&lt;h6 id=&quot;recently-discovered-indiesec-blogs&quot;&gt;Recently Discovered IndieSec Blogs&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://trebledj.me/posts/&quot;&gt;TrebledJ’s Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bashbreach.com&quot;&gt;BashBreach&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kibty.town/blog&quot;&gt;kibty.town&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cti.monster&quot;&gt;cti.monster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://doubletake.fr&quot;&gt;DoubleTake&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s some other cool infosec-related &lt;em&gt;shtuff&lt;/em&gt; I’ve come across this week…&lt;/p&gt;
+
+&lt;p&gt;Some ever-relevant &lt;a href=&quot;https://www.math.ucla.edu/~tao/advice.html&quot;&gt;career advice&lt;/a&gt; from &lt;em&gt;Terence Tao&lt;/em&gt;, &lt;a href=&quot;https://mastodon.social/@FirewallDragons/114098924860470990&quot;&gt;hacker culture tales&lt;/a&gt; straight from &lt;a href=&quot;https://l0pht.com/&quot;&gt;L0pht&lt;/a&gt; Heavy Industries own &lt;a href=&quot;https://www.darkreading.com/author/chris-wysopal&quot;&gt;Chris Wysopal&lt;/a&gt;, and “&lt;a href=&quot;https://docs.thefirewall.org/Documentation/Introduction&quot;&gt;The Firewall&lt;/a&gt;”, a new open source cybersecurity project designed to provide powerful, enterprise-grade security tools that are easy to deploy, easy to use, and accessible to businesses of all sizes and budgets.&lt;/p&gt;
+
+&lt;p&gt;Finally, I wanted to share this little key-crypto-knowledge-byte I came across from &lt;a href=&quot;https://bird.makeup/users/dinodaizovi/statuses/1895991225456718087&quot;&gt;@dinodaizovi&lt;/a&gt;…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are four levels of cryptographic key security:&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;secure key storage (e.g. key theft)&lt;/li&gt;
+    &lt;li&gt;secure key use authorization (e.g. sign wrong thing)&lt;/li&gt;
+    &lt;li&gt;secure key generation (e.g. tampered RNG)&lt;/li&gt;
+    &lt;li&gt;secure key observation (e.g. side channels)&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;Thanks for reading! Now continue your epic journey…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.art/@wuchta/114047001257534088&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/epic-journey.gif&quot; alt=&quot;Epic Journey&quot; width=&quot;400px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Mar 2025 09:11:00 -0500</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-03-07</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-03-07</guid>
+      </item>
+    
+      <item>
+        <title>Scroll quintus</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume five</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms. 
+<br /><br />
+But first! <em>Why am I doing this newsletter?</em> Why the IndieWeb, Fediverse &amp; Cybersecurity? Just <em>why</em>? <em>Well</em>, these things are <u>awesome</u>, that’s why! The truth is, I spend a great deal of time learning and <em>doing</em> a lot of stuff related to these three things. I subscribe to a lot, discover a lot, read a lot, learn a lot, build a lot. So why not synthesize some fraction of these things, compile it all, add some color, and ultimately share it with everyone else? <em>With all of you</em>! That’s what this is, and why I do it.</p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume five&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms. 
+&lt;br /&gt;&lt;br /&gt;
+But first! &lt;em&gt;Why am I doing this newsletter?&lt;/em&gt; Why the IndieWeb, Fediverse &amp;amp; Cybersecurity? Just &lt;em&gt;why&lt;/em&gt;? &lt;em&gt;Well&lt;/em&gt;, these things are &lt;u&gt;awesome&lt;/u&gt;, that’s why! The truth is, I spend a great deal of time learning and &lt;em&gt;doing&lt;/em&gt; a lot of stuff related to these three things. I subscribe to a lot, discover a lot, read a lot, learn a lot, build a lot. So why not synthesize some fraction of these things, compile it all, add some color, and ultimately share it with everyone else? &lt;em&gt;With all of you&lt;/em&gt;! That’s what this is, and why I do it.&lt;/p&gt;
+
+&lt;p&gt;(As an added bonus, it will make my job of finding something in one of these scrolls later, &lt;em&gt;much&lt;/em&gt; easier to do. Thanks &lt;a href=&quot;https://shellsharks.com/search&quot;&gt;search&lt;/a&gt; function!)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;You should start a blog&lt;/strong&gt;. &lt;a href=&quot;https://shellsharks.com/you-should-blog&quot;&gt;I’ve said it before&lt;/a&gt;, and I’ll almost certainly say it again. My voice is but one in a growing chorus, all saying this same thing. Having a personal website is a &lt;u&gt;big deal&lt;/u&gt;, and is becoming even more important each passing day. Your little site may never mean much in the grand scheme of the Internet-at-large (&lt;em&gt;it &lt;a href=&quot;https://susam.net/indieweb-does-not-need-to-take-off.html&quot;&gt;doesn’t need to&lt;/a&gt;&lt;/em&gt;), but it can mean &lt;em&gt;&lt;a href=&quot;https://shellsharks.com/notes/2023/11/21/how-has-my-site-changed-my-life&quot;&gt;everything&lt;/a&gt;&lt;/em&gt; to you, and mean a whole &lt;em&gt;&lt;a href=&quot;https://shellsharks.com/kindness&quot;&gt;heckuva&lt;/a&gt;&lt;/em&gt;-lot to the handful of folks who &lt;a href=&quot;https://shellsharks.com/scrolls/scroll/2025-02-21#discovery&quot;&gt;find you&lt;/a&gt; and enjoy the &lt;a href=&quot;https://localghost.dev/blog/this-page-is-under-construction/&quot;&gt;cozy li’l nook&lt;/a&gt; of the web that you’ve carved out for yourself. In other words, no matter &lt;a href=&quot;https://shellsharks.com/notes/2025/02/10/saying-it-again&quot;&gt;what you might think&lt;/a&gt;, your site &lt;a href=&quot;https://www.joanwestenberg.com/why-personal-websites-matter-more-than-ever/&quot;&gt;matters&lt;/a&gt;. So go get yourself some &lt;a href=&quot;https://blog.muni.town/digital-homeownership/&quot;&gt;digital land&lt;/a&gt;, and start building a real &lt;a href=&quot;https://coffeenow.moomop.uk/post/2025/02/indieweb-i/&quot;&gt;home on the web&lt;/a&gt;. Don’t just rent space from the monolithic, walled-garden platforms. One day, you can &lt;a href=&quot;https://shellsharks.com/notes/2024/05/30/5-years&quot;&gt;look back&lt;/a&gt; at your site’s humble beginnings and be proud of &lt;a href=&quot;https://stefanbohacek.com/blog/15-years-of-running-a-personal-website/&quot;&gt;how far you’ve come&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;So go&lt;/em&gt;, get a website, write something, &lt;strong&gt;build&lt;/strong&gt; something, &lt;em&gt;&lt;a href=&quot;https://fyr.io/post/world_wild_web&quot;&gt;get wild&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Speaking of &lt;strong&gt;building things&lt;/strong&gt;, let me share with you some amazing things I’ve discovered others in the &lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;IndieWeb&lt;/a&gt; community building and adding to their own websites this past week. &lt;a href=&quot;https://www.wavebeem.com/contact/&quot;&gt;Sage&lt;/a&gt; built an &lt;em&gt;awesome&lt;/em&gt; Pokémon “&lt;a href=&quot;https://www.wavebeem.com/shrines/pkmn/&quot;&gt;shrine&lt;/a&gt;”, which is essentially just a long list of Pokémon-related things that they like. The idea of a “shrine”, or a dedicated page for a specific topic or &lt;em&gt;thing&lt;/em&gt; that means a lot to you, is a great idea for a personal website! &lt;a href=&quot;https://mastodon.social/@balint&quot;&gt;Bálint&lt;/a&gt; made a custom &lt;a href=&quot;https://balintmagyar.com/404.html&quot;&gt;404 page&lt;/a&gt;, &lt;a href=&quot;https://gamedev.lgbt/@illuminesce&quot;&gt;CJ&lt;/a&gt; updated his &lt;a href=&quot;https://illuminesce.net/now&quot;&gt;Now&lt;/a&gt; page, &lt;a href=&quot;https://im.marisabel.nl&quot;&gt;Marisabel&lt;/a&gt; shared some &lt;a href=&quot;https://marisabel.nl/social/load_post.php?type=post&amp;amp;id=370&quot;&gt;goals&lt;/a&gt; they have for their website, and &lt;a href=&quot;https://gofer.social/@daj&quot;&gt;David&lt;/a&gt; &lt;a href=&quot;https://gofer.social/@daj/statuses/01JMT1C7TTSZT7GFQ5BS57C8CQ&quot;&gt;announced&lt;/a&gt; his blog commenting capability, &lt;a href=&quot;https://komments.cloud/about&quot;&gt;Komments.cloud&lt;/a&gt;. If you don’t see yourself as much of a “writer”, consider sharing via an &lt;a href=&quot;https://gkeenan.co/avgb/how-to-make-an-audioblog/&quot;&gt;audioblog&lt;/a&gt; instead! Regardless of how or what you share, make sure to expose an &lt;a href=&quot;https://shellsharks.com/an-ode-to-rss&quot;&gt;RSS feed&lt;/a&gt;, or risk &lt;a href=&quot;https://stop.zona-m.net/2021/02/the-snob-rss-hall-of-constructive-shame/&quot;&gt;being shamed&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Building, &lt;a href=&quot;https://shellsharks.com/notes/2024/04/11/the-joy-of-incremental-website-improvements&quot;&gt;updating&lt;/a&gt;, &lt;a href=&quot;https://shellsharks.com/notes/2025/01/28/tinkering-with-the-site-again&quot;&gt;tinkering&lt;/a&gt; and generally adding &lt;a href=&quot;https://shellsharks.com/notes/2023/08/15/website-component-checklist&quot;&gt;features&lt;/a&gt; / capabilities to a personal site is &lt;em&gt;a lot of fun&lt;/em&gt;, and can really make a site &lt;a href=&quot;https://coffeenow.moomop.uk/post/2025/02/indieweb-i/&quot;&gt;feel like home&lt;/a&gt;. But to get the &lt;em&gt;most&lt;/em&gt; out of the experience, you also need to &lt;em&gt;share&lt;/em&gt;. &lt;strong&gt;Share your writing, &lt;a href=&quot;https://vim.wtf/@wq/statuses/01JN1W3RSK511WP3V8QPEE55A3&quot;&gt;share links to cool stuff you’ve found&lt;/a&gt;, share anything really&lt;/strong&gt;. Granted, it’s not always easy. Sometimes it’s hard to think of something you want to say! It’s also just difficult to maintain a &lt;a href=&quot;https://www.ciccarello.me/posts/2025/02/24/develop-a-blogging-habit/&quot;&gt;regular habit of writing&lt;/a&gt;. But remember &lt;a href=&quot;https://shellsharks.com/you-should-blog#what-not-to-worry-about&quot;&gt;not to worry&lt;/a&gt; about “readers” - just &lt;a href=&quot;https://www.marclittlemore.com/writing-again/&quot;&gt;write for yourself&lt;/a&gt;, and leverage the many &lt;a href=&quot;https://shellsharks.com/scrolls/scroll/2025-02-07#inspiration&quot;&gt;sources of inspiration&lt;/a&gt; that are available to you. Or if you &lt;em&gt;really&lt;/em&gt; can’t think of anything to say yourself, just boost / &lt;em&gt;re&lt;/em&gt;-share cool stuff that others have written or shared. &lt;a href=&quot;https://oldbytes.space/@82mhz&quot;&gt;Andreas&lt;/a&gt; and &lt;a href=&quot;https://thomasrigby.com/colophon/&quot;&gt;Thomas&lt;/a&gt; did &lt;em&gt;exactly&lt;/em&gt; this, through their &lt;a href=&quot;https://82mhz.net/posts/2025/02/linkdump-no-43/&quot;&gt;Linkdump&lt;/a&gt; and &lt;a href=&quot;https://thomasrigby.com/posts/2025-w08/&quot;&gt;Weeknotes&lt;/a&gt; summary posts (respectively).&lt;/p&gt;
+
+&lt;p&gt;So while I’m on the subject of boosting cool things, here’s some great Indie-sites I’ve discovered this past week…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vhsoverdrive.neocities.org&quot;&gt;VHS Overdrive&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ohhelloana.blog/blog-questions-challenge/&quot;&gt;Oh Hello Ana&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nicksimson.com/posts/2025-ye-olde-blogging-questions-challenge&quot;&gt;Nick Simson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://michael.kjorling.se&quot;&gt;Michael Kjörling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;Have you made it to the &lt;a href=&quot;https://shellsharks.com/fediverse&quot;&gt;Fediverse&lt;/a&gt; yet? (&lt;em&gt;If so&lt;/em&gt;) How &lt;a href=&quot;https://www.henryleach.com/2025/02/two-years-before-the-mastodon&quot;&gt;long&lt;/a&gt; have you been &lt;em&gt;on Fedi&lt;/em&gt;? How’re ya likin’ things? Do you like the instance(s) you’re on? Well I hope the answer is &lt;em&gt;generally&lt;/em&gt;, that you are enjoying things!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;But&lt;/em&gt;, maybe you’re &lt;strong&gt;looking for something a bit new or just different&lt;/strong&gt; in this space? Well, if for &lt;em&gt;whatever reason&lt;/em&gt; you’re looking to move &lt;em&gt;off&lt;/em&gt; of &lt;a href=&quot;https://pixelfed.org&quot;&gt;Pixelfed&lt;/a&gt;, consider using &lt;a href=&quot;https://github.com/VyrCossont/slurp&quot;&gt;Slurp&lt;/a&gt; to &lt;a href=&quot;https://box464.com/posts/gotosocial-slurp/&quot;&gt;import&lt;/a&gt; posts &lt;em&gt;into&lt;/em&gt; a &lt;a href=&quot;https://blog.elenarossini.com/gotosocial-empowers-you-to-have-your-own-home-on-the-fediverse-with-unique-controls/&quot;&gt;GoToSocial&lt;/a&gt; instance. You can learn about how I set up my own “GtS” instance &lt;a href=&quot;https://shellsharks.com/notes/2025/01/10/gotosocial-on-knt-host&quot;&gt;here&lt;/a&gt;. Or, maybe you wanna go &lt;em&gt;full&lt;/em&gt;-on IndieWeb. &lt;em&gt;Who could blame ya?!&lt;/em&gt; Here’s an awesome-looking project for &lt;a href=&quot;https://git.garrido.io/gabriel/mastodon-markdown-archive&quot;&gt;importing a Mastodon archive&lt;/a&gt; into something usable by a Static Site Generator or other IndieWeb site.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wanna just improve your feed?&lt;/strong&gt; Follow some &lt;a href=&quot;https://social.growyourown.services/@FediFollows/114054743467303195&quot;&gt;weather forecasts&lt;/a&gt;, listen to &lt;a href=&quot;https://social.firesidefedi.live/@firesidefedi/statuses/01JMJJWVP2FSGTAX17XS9QEE77&quot;&gt;FiresideFedi&lt;/a&gt;, or call out them pesky “&lt;a href=&quot;https://replyguy.social&quot;&gt;reply guys&lt;/a&gt;” and then get’m on out of your feed! If all else fails, you can dig through &lt;a href=&quot;https://hueyy.github.io/awesome-mastodon/&quot;&gt;this Awesome Mastodon resource&lt;/a&gt; for other ways to improve your experience on the Fediverse. Because &lt;em&gt;here&lt;/em&gt;, &lt;strong&gt;we don’t do algorithms&lt;/strong&gt;, our feeds are what we make of ‘em.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/burnitdown.gif&quot; alt=&quot;burnitdown&quot; /&gt;
+&lt;em&gt;credit to &lt;a href=&quot;https://merveilles.town/@slash/113787063444609345&quot;&gt;Slash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;There’s always &lt;em&gt;something&lt;/em&gt; to learn in the world of cybersecurity, things just move fast ‘round here. For my part, I am &lt;em&gt;constantly&lt;/em&gt; reading, bookmarking and trying to understand all the awesome infosec-related content that comes across my &lt;a href=&quot;https://shellsharks.com/notes/2023/11/06/keeping-current-in-infosec&quot;&gt;feeds&lt;/a&gt; each day. Here’s some of that very &lt;em&gt;stuff&lt;/em&gt; that I’ve got on my reading list for this week…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.trailofbits.com/2025/02/28/threat-modeling-the-trail-of-bits-way/&quot;&gt;Threat modeling the TRAIL of Bits way&lt;/a&gt; &lt;em&gt;and&lt;/em&gt; &lt;a href=&quot;https://blog.trailofbits.com/2025/02/25/how-threat-modeling-could-have-prevented-the-1.5b-bybit-hack/&quot;&gt;How Threat Modeling Could Have Prevented the $1.5B Bybit Hack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gotchas.salusa.dev/&quot;&gt;Crypto Gotchas!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gfw.report/publications/ndss25/en/&quot;&gt;Wallbleed: A Memory Disclosure Vulnerability in the Great Firewall of China&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tantek.com/2025/055/t1/three-steps-indieweb-cybersecurity&quot;&gt;Three key steps for IndieWeb cybersecurity&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;a href=&quot;https://tantek.com&quot;&gt;Tantek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://hackaday.io/project/202522-cyberdeck-handheld&quot;&gt;Cyberdeck Handheld&lt;/a&gt; looks &lt;em&gt;&lt;a href=&quot;https://hackaday.com/2025/02/27/a-precisely-elegant-cyberdeck-handheld/&quot;&gt;really awesome&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://infosec.exchange/@wrongnumber&quot;&gt;@wrongnumber’s&lt;/a&gt; &lt;a href=&quot;https://infosec.exchange/@wrongnumber/114077534877702044&quot;&gt;proposal&lt;/a&gt; for establishing a “&lt;a href=&quot;https://dialtone.noblogs.org/post/2025/02/27/formation-of-a-cyber-security-corps/&quot;&gt;Cyber Security Corps&lt;/a&gt;” - perhaps a good way to give back and lend our unique skillsets to important causes.&lt;/p&gt;
+
+&lt;p&gt;Last, but &lt;em&gt;never&lt;/em&gt; least, my &lt;u&gt;IndieSec&lt;/u&gt; blogs-of-the-week!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://theravenfile.com&quot;&gt;The Raven File&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cirriustech.co.uk/&quot;&gt;CirrusTech&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dan1t0.com/&quot;&gt;Dani Martinez (dan1t0)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://broken-by-design.fr/posts/&quot;&gt;Broken By Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading&lt;/em&gt;, and remember to give yourself a rest every once in a while!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wandering.shop/@Violinknitter/113946484600495242&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/rest-here.png&quot; alt=&quot;Rest here&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wandering.shop/@Violinknitter/113946484600495242&quot;&gt;Rest here weary doom-scroller&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Feb 2025 15:44:00 -0500</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-02-28</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-02-28</guid>
+      </item>
+    
+      <item>
+        <title>Scroll quattuor</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume four</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <span class="shellsharks">IndieWeb</span>, <span class="shellsharks">Fediverse</span> &amp; <span class="shellsharks">Cybersecurity</span> realms. Featured topics for this week include how, and more importantly, <em>why</em> to start a personal website, as well as how to join and help grow the <a href="/fediverse">Fediverse</a>. <em>Enjoy!</em></p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume four&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;span class=&quot;shellsharks&quot;&gt;IndieWeb&lt;/span&gt;, &lt;span class=&quot;shellsharks&quot;&gt;Fediverse&lt;/span&gt; &amp;amp; &lt;span class=&quot;shellsharks&quot;&gt;Cybersecurity&lt;/span&gt; realms. Featured topics for this week include how, and more importantly, &lt;em&gt;why&lt;/em&gt; to start a personal website, as well as how to join and help grow the &lt;a href=&quot;https://shellsharks.com/fediverse&quot;&gt;Fediverse&lt;/a&gt;. &lt;em&gt;Enjoy!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: An important note about the nature of a weekly newsletter - &lt;strong&gt;expect topics to be revisited&lt;/strong&gt;. I don’t mean the &lt;em&gt;exact&lt;/em&gt; same verbiage or external sources, but there will be high-level topics and themes that are continuously explored throughout the running of this publication (e.g. “&lt;em&gt;fun things to add to your indie website&lt;/em&gt;” or “&lt;em&gt;how to navigate the Fediverse&lt;/em&gt;”, etc…) It really just depends on what I discover across my various web and Fediverse feeds from that week!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;The &lt;strong&gt;&lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;IndieWeb&lt;/a&gt;&lt;/strong&gt; is not only &lt;em&gt;awesome&lt;/em&gt;, it’s also &lt;strong&gt;important&lt;/strong&gt;. For us as individuals &lt;em&gt;sure&lt;/em&gt;, but also &lt;a href=&quot;http://www.uzine.net/article63.html&quot;&gt;for the web, and for us collectively as a civilization&lt;/a&gt;.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; So whether you’ve just started to &lt;a href=&quot;https://manuelmoreale.com/blog-platforms&quot;&gt;shop&lt;/a&gt;* for your first &lt;a href=&quot;https://blog.samclemente.me/my-home-on-the-internet/&quot;&gt;home on the Internet&lt;/a&gt;, &lt;a href=&quot;https://klpx.de/posts/blogging-and-me/&quot;&gt;coming back to blogging&lt;/a&gt; from a long time away, or &lt;a href=&quot;https://interconnected.org/home/2025/02/19/reflections&quot;&gt;keeping the fire&lt;/a&gt; that is your site ablaze, know that &lt;strong&gt;it matters&lt;/strong&gt;.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; It should matter to you, and it &lt;em&gt;will&lt;/em&gt; matter to others, no matter &lt;a href=&quot;https://shellsharks.com/notes/2024/03/13/you-have-something-to-say-someone-will-listen&quot;&gt;what you may think&lt;/a&gt; in the beginning. It’s important to &lt;a href=&quot;https://werd.io/2025/own-whats-yours&quot;&gt;own your thoughts&lt;/a&gt;, share what you have to say and just &lt;a href=&quot;https://axxuy.xyz/blog/posts/2025/unoptimized/&quot;&gt;be yourself&lt;/a&gt;.&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;a href=&quot;https://notes.jeddacp.com/blogging-is-not-always-about-traffic/&quot;&gt;Regardless of who sees it&lt;/a&gt;, or whether it is “&lt;em&gt;&lt;a href=&quot;https://manuelmoreale.com/unsolicited-blogging-advice&quot;&gt;perfectly said&lt;/a&gt;&lt;/em&gt;”.&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;* (&lt;em&gt;Check out the Write.as “&lt;a href=&quot;https://write.as/deals/a-decade-of-write-as-sale&quot;&gt;A Decade of Write.as Sale&lt;/a&gt;” if you’re site-platform shopping. &lt;u&gt;Bonus&lt;/u&gt;: For folks on &lt;a href=&quot;https://write.as&quot;&gt;Write.as&lt;/a&gt;, you can now do &lt;a href=&quot;https://write.as/updates/now-your-write-as-posts-can-be-associated-with-your-profile-elsewhere-on-the&quot;&gt;Fediverse creator tags&lt;/a&gt;&lt;/em&gt;!)&lt;/p&gt;
+
+&lt;p&gt;Speaking of the “collective” that is us as humans, and on the topic of things to say, &lt;strong&gt;the IndieWeb community is loaded with opportunities, and inspiration is abundant&lt;/strong&gt; - &lt;em&gt;if you know where to look!&lt;/em&gt; I think most of us who’ve started our IndieWeb journey would like to write more, and &lt;a href=&quot;https://lcamtuf.substack.com/p/you-should-write-more&quot;&gt;we should&lt;/a&gt; (&lt;em&gt;preferably &lt;a href=&quot;https://micahflee.com/2025/02/not-only-is-substack-right-wing-broligarchy-garbage-its-way-more-expensive-than-ghost/&quot;&gt;&lt;u&gt;not&lt;/u&gt; on Substack&lt;/a&gt; though&lt;/em&gt;).&lt;sup id=&quot;fnref:11&quot;&gt;&lt;a href=&quot;#fn:11&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; Once we’ve moved past the “&lt;em&gt;nobody cares what I have to say&lt;/em&gt;” phase, we usually find ourselves in the “&lt;em&gt;I don’t have enough time&lt;/em&gt;” or “&lt;em&gt;I don’t know&lt;/em&gt; &lt;strong&gt;what&lt;/strong&gt; &lt;em&gt;to say&lt;/em&gt;” phases. On the concept of having &lt;em&gt;time&lt;/em&gt; to write, I have two things to offer. First, &lt;em&gt;don’t sweat it&lt;/em&gt;. Don’t hold yourself to some cadence, just write when you have time, and when you feel like it. Second, &lt;em&gt;&lt;a href=&quot;https://shellsharks.com/notes/2023/11/09/where-i-find-the-time&quot;&gt;make time&lt;/a&gt;&lt;/em&gt;. Easier said than done I know, but we all have things in our life we could cut back on, to make room for things that we’d rather do, or aspire to do. As for &lt;em&gt;what&lt;/em&gt; to say, &lt;strong&gt;look towards the community&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://indieweb.org&quot;&gt;Indieweb.org&lt;/a&gt; hosts many &lt;a href=&quot;https://events.indieweb.org&quot;&gt;events&lt;/a&gt; to help you meet others, find help and &lt;strong&gt;get the creative juices flowin’&lt;/strong&gt;. One particularly cool event is the “&lt;a href=&quot;https://indieweb.org/IndieWeb_Carnival&quot;&gt;IndieWeb Carnival&lt;/a&gt;”, a monthly event with a singular writing prompt/topic. Participants share their &lt;em&gt;submission&lt;/em&gt; with the “host” (&lt;em&gt;a volunteer position&lt;/em&gt;), who’s job is to simply collect all the submissions and share them in an aggregate post on their own site. &lt;em&gt;Neat!&lt;/em&gt; The current Carnival event is all about &lt;em&gt;&lt;a href=&quot;https://artlung.com/affirmations-ic/&quot;&gt;affirmations&lt;/a&gt;&lt;/em&gt;. If that ain’t your thing, you can keep an eye out for viral blogging challenges, &lt;a href=&quot;https://localghost.dev/blog/the-blog-questions-challenge/&quot;&gt;like this one that’s still goin’&lt;/a&gt;! IndieWeb-specific communities (e.g. &lt;a href=&quot;https://32bit.cafe&quot;&gt;32-Bit Cafe&lt;/a&gt;), &lt;a href=&quot;https://shellsharks.com/indieweb#webrings&quot;&gt;webrings&lt;/a&gt; (e.g. &lt;a href=&quot;https://meta-ring.hedy.dev&quot;&gt;Meta Ring&lt;/a&gt;) and Fediverse-borne hashtags like &lt;em&gt;#writerscafe&lt;/em&gt; &amp;amp; &lt;em&gt;&lt;a href=&quot;https://dmv.community/@jcrabapple/114032659211378760&quot;&gt;#BlogQuestionsChallenge&lt;/a&gt;&lt;/em&gt; can also be great sources of writing inspiration and general community goodness.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It ain’t all about &lt;i&gt;writing&lt;/i&gt; though&lt;/strong&gt;. Sometimes you just wanna spruce things up, make some additions or slap a new coat of paint on as it were. I’ve been doin’ quite a bit of this lately. In fact, just in the this last week I’ve whipped up a &lt;a href=&quot;https://shellsharks.com/whats-a-home-page&quot;&gt;new home page design&lt;/a&gt;, generated some &lt;a href=&quot;https://shellsharks.com/notes/2025/02/19/infosec-only&quot;&gt;fresh RSS feeds&lt;/a&gt;, and &lt;a href=&quot;https://shellsharks.com/devlog/shark-fin-hr&quot;&gt;added even more Sharks&lt;/a&gt;! And who doesn’t want &lt;em&gt;more&lt;/em&gt; sharks?? What’s everyone else doin’… &lt;a href=&quot;https://mastodon.social/@balint/114026564117711335&quot;&gt;Bálint&lt;/a&gt; set up a short domain for his site, &lt;a href=&quot;https://fosstodon.org/@ttntm/113997528405160813&quot;&gt;Tom&lt;/a&gt; implemented &lt;a href=&quot;https://ttntm.me/blog/implementing-webmentions/&quot;&gt;Webmentions&lt;/a&gt;, and &lt;a href=&quot;https://cassidoo.co/blog/&quot;&gt;Cassidy&lt;/a&gt; is just doin’ her thing on an awesome colorful site that I love. So take any of those things as inspiration &lt;em&gt;yeah&lt;/em&gt;? Need some more &lt;em&gt;technical&lt;/em&gt; help with this kinda stuff? Check out &lt;a href=&quot;https://type-atlas.xyz/foundries/&quot;&gt;Atlas Of Types’ “Foundries”&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://html-shark.com&quot;&gt;HTML Shark&lt;/a&gt; (had to shout out this place of course, &lt;em&gt;SHARKS&lt;/em&gt;~!!)&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&quot;discovery&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Here on the IndieWeb, we &lt;em&gt;may&lt;/em&gt; write for &lt;a href=&quot;https://lazybea.rs/baa/&quot;&gt;ourselves first&lt;/a&gt;, but as a community, we want to &lt;strong&gt;share our thoughts with others&lt;/strong&gt;.&lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;10&lt;/a&gt;&lt;/sup&gt; For what is shared however, others must &lt;strong&gt;discover&lt;/strong&gt;. The idea of &lt;em&gt;discovery&lt;/em&gt; is definitely going to be a constant theme here with &lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;. So how can we find stuff? RSS! &lt;em&gt;RSS&lt;/em&gt;! &lt;strong&gt;&lt;a href=&quot;https://html-chunder.neocities.org/blog/discovering-social/&quot;&gt;RSS&lt;/a&gt;&lt;/strong&gt;! &lt;em&gt;Well&lt;/em&gt;, to be clear, RSS isn’t &lt;em&gt;exactly&lt;/em&gt; a net-new discovery mechanism, but it &lt;em&gt;does&lt;/em&gt; help folks who have found your site, to keep up to date with what you post. As for finding entirely new things? &lt;a href=&quot;https://feedle.world&quot;&gt;feedle&lt;/a&gt; has a catalog of blogs (and podcasts), &lt;a href=&quot;https://mastodon.online/@jlsksr&quot;&gt;Julius&lt;/a&gt; shares a &lt;a href=&quot;https://mastodon.online/@jlsksr/114004580415635752&quot;&gt;Cool Personal Homepage&lt;/a&gt; every week, the &lt;a href=&quot;&quot;&gt;#MondayBlogs&lt;/a&gt; fedi-hashtag is used to share blogs (like &lt;a href=&quot;https://mastodon.social/@trinitymuse/114020746144256864&quot;&gt;Bellesmots2000 did&lt;/a&gt;) and publications like &lt;a href=&quot;https://fromthesuperhighway.com&quot;&gt;From The Superhighway&lt;/a&gt; also &lt;a href=&quot;https://github.com/capjamesg/indieweb-search&quot;&gt;surface IndieWeb stuff&lt;/a&gt;, to name a few ways.&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&quot;weekly&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;One of my &lt;em&gt;favorite&lt;/em&gt; types of IndieWeb-style posts is the &lt;strong&gt;Weekly&lt;/strong&gt; (&lt;em&gt;or whatever cadence&lt;/em&gt;) &lt;strong&gt;Summary&lt;/strong&gt;. It’s just a nice way for &lt;em&gt;anyone&lt;/em&gt; to share any assortment of thoughts and links to stuff they’ve found. In many ways, that’s &lt;em&gt;kinda&lt;/em&gt; what this newsletter is. Here’s some cool summary-style blogs I’ve discovered recently…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dreamindani.com/posts/bookmark-beat-ep24&quot;&gt;Bookmart Beat&lt;/a&gt; (by &lt;strong&gt;Dani Sandoval&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://notes.krueger.ink/week-notes-no-0725/&quot;&gt;Week Notes&lt;/a&gt; (from &lt;strong&gt;And So It Goes…&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brettterpstra.com/2025/02/15/web-excursions-for-february-15th-2025/&quot;&gt;Web Excursions&lt;/a&gt; (by &lt;strong&gt;Brett Terpstra&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mihobu.lol/weeknotes-week-07-2025&quot;&gt;Weeknotes&lt;/a&gt; (by &lt;strong&gt;Michael Burkhardt&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;Not exactly the same, but you should also check out omg.lol’s &lt;a href=&quot;https://krrd.ing/posts/helenchong-omglol-interview-5/&quot;&gt;interview series&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Weekly summaries are yet another great, super-curated way for people to discover new stuff. In that spirit, I’m-a share some stuff right here. Here’s some cool indie sites and blogs I discovered this past week.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rootcompute.neocities.org/directory&quot;&gt;rootcompute&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.hexadecim8.com/index.html&quot;&gt;Hack To The Future&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sheepdev.xyz&quot;&gt;Jakov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://honora.neocities.org&quot;&gt;Honora’s Web Garden&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mycorrhiza.space/blog&quot;&gt;mycorrhiza&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.avas.space&quot;&gt;avas.space&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://weeks.ginatrapani.org&quot;&gt;My Life in Weeks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vaettr.com&quot;&gt;Vaettr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strike&gt;Denizens&lt;/strike&gt; Citizens of the Fediverse!&lt;/em&gt; Read &lt;span class=&quot;shellsharks&quot; style=&quot;font-weight:bold;&quot;&gt;&lt;a href=&quot;https://anniemueller.com/posts/talk-about-the-thing-itself&quot;&gt;this&lt;/a&gt;&lt;/span&gt;.&lt;sup id=&quot;fnref:10&quot;&gt;&lt;a href=&quot;#fn:10&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;11&lt;/a&gt;&lt;/sup&gt; We &lt;em&gt;know&lt;/em&gt; it’s awesome here. We &lt;em&gt;want&lt;/em&gt; people to know how awesome it is, and for them to come here. We &lt;em&gt;know&lt;/em&gt; &lt;a href=&quot;https://arstechnica.com/gadgets/2025/02/reddit-plans-to-lock-some-content-behind-a-paywall-this-year-ceo-says/&quot;&gt;other places are bad&lt;/a&gt;. But we’ve just gotta &lt;strong&gt;talk about things &lt;a href=&quot;https://mastodon.online/@danirabbit/113919277314661343&quot;&gt;differently&lt;/a&gt;&lt;/strong&gt; than we’ve been doin’ it.&lt;/p&gt;
+
+&lt;p&gt;We can &lt;a href=&quot;https://activitypub.ghost.org/your-thoughts-on-onboarding/&quot;&gt;get people here&lt;/a&gt; - by focusing on &lt;strong&gt;making this place awesome&lt;/strong&gt;, and just &lt;a href=&quot;https://dmv.community/@jcrabapple/114002214943822501&quot;&gt;bein’ neighborly&lt;/a&gt;. To this end, consider &lt;a href=&quot;https://wedistribute.org/2025/02/your-fediverse-server/?Fedizen.EU&quot;&gt;launching&lt;/a&gt; your &lt;a href=&quot;https://runyourown.social/#you-are-the-party-host&quot;&gt;own li’l social space&lt;/a&gt;. For your friends, family, community, or just because you &lt;em&gt;&lt;a href=&quot;https://socialweb.network&quot;&gt;can&lt;/a&gt;&lt;/em&gt;. If not for anyone else, stand up a Fediverse presence and achieve &lt;a href=&quot;https://mastodon.social/@_elena/114012808640195653&quot;&gt;tech empowerment&lt;/a&gt; for yourself!&lt;/p&gt;
+
+&lt;p&gt;Make no mistake. &lt;strong&gt;The Fediverse is awesome&lt;/strong&gt;. While &lt;a href=&quot;https://phillipjreese.com/the-social-network-that-cant-sell-out-understanding-mastodon-vs-bluesky/&quot;&gt;other networks&lt;/a&gt; try and figure out how to &lt;a href=&quot;https://bsky.bad-example.com/can-atproto-scale-down/&quot;&gt;scale down&lt;/a&gt;, the Fediverse &lt;a href=&quot;https://mrp.net/fediverse/software/&quot;&gt;grows&lt;/a&gt; and gets even &lt;em&gt;more&lt;/em&gt; awesome. Want to keep up with what’s goin’ on Fedi-wise? &lt;a href=&quot;https://mitra.social/@weekinfediverse&quot;&gt;Week in Fediverse&lt;/a&gt;, the &lt;a href=&quot;https://fediversereport.com/fediverse-report-104/&quot;&gt;Fediverse Report&lt;/a&gt; and the &lt;a href=&quot;https://surf.social/feed/surf%2Fcustom%2F01jfm3esr4e3a0wdt3tg9310at&quot;&gt;Fediverse Newsire&lt;/a&gt; (a &lt;a href=&quot;https://shellsharks.com/notes/2025/01/22/surfing-the-social-web&quot;&gt;Surf&lt;/a&gt; feed) are a couple of places to check out. The &lt;a href=&quot;https://mastodon.social/@MastodonEngineering/&quot;&gt;Mastodon Engineering&lt;/a&gt; account is also an obvious space to pay attention to. In fact, they recently dropped some news about &lt;a href=&quot;https://mastodon.social/@MastodonEngineering/114003104286886445&quot;&gt;bringing quote posts to Mastodon&lt;/a&gt; (which naturally &lt;a href=&quot;https://neuromatch.social/@jdp23/114021225882839231&quot;&gt;raises a lot of questions&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Not interested in news? What about just &lt;em&gt;&lt;a href=&quot;https://theindiebeat.fm&quot;&gt;vibes&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;Ah yes, &lt;strong&gt;Cybersecurity&lt;/strong&gt;, easily the most neglected segment of this here newsletter. 🤣&lt;/p&gt;
+
+&lt;p&gt;I &lt;em&gt;will&lt;/em&gt; find a way to weave a story with the week’s cyber-related news as I have done each week with the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt; and &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; sections, but to use the &lt;a href=&quot;https://britishfantasysociety.org/silo/&quot;&gt;Silo&lt;/a&gt; parlance - &lt;em&gt;today is not that day&lt;/em&gt;. So yeah, here’s some neat articles I’ve added to my own reading list…&lt;/p&gt;
+
+&lt;h6 id=&quot;reading-list&quot;&gt;Reading List&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.yossarian.net/2024/11/18/Security-means-securing-people-where-they-are&quot;&gt;Security means securing people where they are&lt;/a&gt; (from &lt;strong&gt;ENOSUCHBLOG&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cwe.mitre.org/documents/unforgivable_vulns/unforgivable.pdf&quot;&gt;Unforgivable Vulnerabilities&lt;/a&gt; (by &lt;strong&gt;Steve Christey&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soatok.blog/2025/02/18/reviewing-the-cryptography-used-by-signal/&quot;&gt;Reviewing the Cryptography Used by Signal&lt;/a&gt; (from &lt;strong&gt;Dhole Moments&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tisiphone.net/2025/02/16/on-cybersecurity-mentorship/&quot;&gt;On Cybersecurity Mentorship&lt;/a&gt; (by &lt;strong&gt;Lesley Carhart&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;Don’t wanna read? What about a listen? &lt;a href=&quot;https://securityunscripted.org/e01-cvssv4-and-why-it-matters&quot;&gt;CVSSv4 and why it matters&lt;/a&gt; (from &lt;strong&gt;Security Unscripted&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hungry for more? Here’s some outlets to check out for &lt;em&gt;moarrrr&lt;/em&gt; infosec!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://entra.news&quot;&gt;Entra.News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://phrack.org&quot;&gt;Phrack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pagedout.institute&quot;&gt;Paged Out&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://old.infosec.pub&quot;&gt;old.infosec.pub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gbppr.net/proj.html&quot;&gt;GBPPR Advanced Development Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;indiesec-blogs-of-the-week&quot;&gt;IndieSec Blogs of the Week&lt;/h6&gt;
+&lt;p&gt;Here’s a recurring mini-segment for ya. Some of my favorite new (&lt;em&gt;and old&lt;/em&gt;) personal &lt;strong&gt;cyberblogs&lt;/strong&gt; (&lt;em&gt;does this sound cool?&lt;/em&gt;) of the week…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.da.vidbuchanan.co.uk/blog/&quot;&gt;David Buchanan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://c2a.github.io&quot;&gt;accalon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://magic-box.dev&quot;&gt;Josh Merrill&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.pspaul.de&quot;&gt;pspaul&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.landh.tech/blog&quot;&gt;Lupin &amp;amp; Holmes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Wanna challenge?&lt;/em&gt; &lt;a href=&quot;https://jabbercracky.com/login&quot;&gt;Take a crack at this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cailincat.cloud/@lunathemoongirl/113999666344802133&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/its-dangerous-to-go-alone.png&quot; alt=&quot;It&apos;s dangerous to go alone!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Credit &lt;a href=&quot;https://cailincat.cloud/@lunathemoongirl/113999666344802133&quot;&gt;lunathemoongirl&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr class=&quot;fin&quot; /&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www.uzine.net/article63.html&quot;&gt;The Indie Web Manifesto&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://blog.samclemente.me/my-home-on-the-internet/&quot;&gt;My Home on the Internet&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://klpx.de/posts/blogging-and-me/&quot;&gt;Blogging and Me&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://interconnected.org/home/2025/02/19/reflections&quot;&gt;Reflections on 25 years of Interconnected&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://werd.io/2025/own-whats-yours&quot;&gt;Own What’s Yours&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://axxuy.xyz/blog/posts/2025/unoptimized/&quot;&gt;Unoptimized&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://notes.jeddacp.com/blogging-is-not-always-about-traffic/&quot;&gt;Blogging Is Not Always About Traffic&lt;/a&gt; &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://manuelmoreale.com/unsolicited-blogging-advice&quot;&gt;Unsolicited blogging advice&lt;/a&gt; &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:11&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://micahflee.com/2025/02/not-only-is-substack-right-wing-broligarchy-garbage-its-way-more-expensive-than-ghost/&quot;&gt;Not only is Substack right-wing broligarchy garbage, it’s way more expensive than Ghost&lt;/a&gt; &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://lazybea.rs/baa/&quot;&gt;Blogs and Audience&lt;/a&gt; &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:10&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://anniemueller.com/posts/talk-about-the-thing-itself&quot;&gt;Talk about the thing itself&lt;/a&gt; &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 21 Feb 2025 00:20:00 -0500</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-02-21</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-02-21</guid>
+      </item>
+    
+      <item>
+        <title>Scroll tres</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volume three</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a weekly newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms.
+<br /><br /><span id="rss"></span>
+First, a quick aside to <strong>talk about <a href="https://rss.com/blog/how-do-rss-feeds-work/">RSS</a></strong> <i class="ph ph-rss"></i> (<em>That’s right!</em> <a href="https://audmcname.com/comics/rss-is-not-dead-yet/">RSS is not dead yet</a>). I refer to this publication as a “newsletter” (among other things), which I think for many, evokes the idea of <em>email</em>. But as you have likely discovered by now, this newsletter is <u>not</u> emailed to you. Rather, if you want to subscribe, you must do so with good ol’ fashioned RSS. To that end, I recommend getting (if you don’t have one already) an RSS client - for your phone, for your desktop, laptop, <em>all the things</em>. If you’re looking for more info, I’ve written an RSS <em>how-to</em> of sorts that <a href="/an-ode-to-rss">you can read</a>. Once you’ve got one, just drop this url <mark>https://shellsharks.com/feeds/scroll-feed.xml</mark> into it and you should be good-and-subscribed! RSS is a great tool for <a href="https://readbeanicecream.surge.sh/2025/02/11/curate-your-internet-experience/">curating your internet experience</a>. Now on to it!</p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volume three&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a weekly newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms.
+&lt;br /&gt;&lt;br /&gt;&lt;span id=&quot;rss&quot;&gt;&lt;/span&gt;
+First, a quick aside to &lt;strong&gt;talk about &lt;a href=&quot;https://rss.com/blog/how-do-rss-feeds-work/&quot;&gt;RSS&lt;/a&gt;&lt;/strong&gt; &lt;i class=&quot;ph ph-rss&quot;&gt;&lt;/i&gt; (&lt;em&gt;That’s right!&lt;/em&gt; &lt;a href=&quot;https://audmcname.com/comics/rss-is-not-dead-yet/&quot;&gt;RSS is not dead yet&lt;/a&gt;). I refer to this publication as a “newsletter” (among other things), which I think for many, evokes the idea of &lt;em&gt;email&lt;/em&gt;. But as you have likely discovered by now, this newsletter is &lt;u&gt;not&lt;/u&gt; emailed to you. Rather, if you want to subscribe, you must do so with good ol’ fashioned RSS. To that end, I recommend getting (if you don’t have one already) an RSS client - for your phone, for your desktop, laptop, &lt;em&gt;all the things&lt;/em&gt;. If you’re looking for more info, I’ve written an RSS &lt;em&gt;how-to&lt;/em&gt; of sorts that &lt;a href=&quot;https://shellsharks.com/an-ode-to-rss&quot;&gt;you can read&lt;/a&gt;. Once you’ve got one, just drop this url &lt;mark&gt;https://shellsharks.com/feeds/scroll-feed.xml&lt;/mark&gt; into it and you should be good-and-subscribed! RSS is a great tool for &lt;a href=&quot;https://readbeanicecream.surge.sh/2025/02/11/curate-your-internet-experience/&quot;&gt;curating your internet experience&lt;/a&gt;. Now on to it!&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;Speaking of your experience on the Internet, I’ve got &lt;strong&gt;good news and bad news about the web&lt;/strong&gt;. First, the &lt;em&gt;bad&lt;/em&gt; news - a lot of the web &lt;em&gt;sucks&lt;/em&gt;. So what’s the &lt;em&gt;good&lt;/em&gt; news? Well the good news is that there is a burgeoning movement to &lt;a href=&quot;https://www.noemamag.com/we-need-to-rewild-the-internet/&quot;&gt;rewild the Internet&lt;/a&gt;, to make it more humane, and let it flourish once more. More on this shortly, but first…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What makes the bad web, “bad”&lt;/strong&gt;? I mean, have you seen any of &lt;a href=&quot;https://arstechnica.com/gadgets/2025/02/as-internet-enshittification-marches-on-here-are-some-of-the-worst-offenders/&quot;&gt;these things&lt;/a&gt; in your web travels? What about any of &lt;a href=&quot;https://shellsharks.com/web-page-annoyances&quot;&gt;this annoying stuff&lt;/a&gt;? Run into any pathetic &lt;strong&gt;&lt;a href=&quot;https://pivot-to-ai.com&quot;&gt;AI&lt;/a&gt;&lt;/strong&gt; slop yet? &lt;em&gt;Bet ya have&lt;/em&gt;. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Enshittification&quot;&gt;enshittification&lt;/a&gt; pandemic of the centralized, corporate web is &lt;em&gt;very&lt;/em&gt; real, and suffocatingly inescapable. So much so, that I’ve come across quite a few &lt;a href=&quot;https://mstdn.ca/@matthewguy/113998698514794436&quot;&gt;posts&lt;/a&gt; about how individuals are &lt;a href=&quot;https://relativenostalgia.com/posts/my-changing-relationship-with-google-and-big-tech&quot;&gt;yanking big tech out of their life completely&lt;/a&gt; (&lt;em&gt;&lt;a href=&quot;https://shellsharks.com/notes/2023/11/13/decorporatization&quot;&gt;me too&lt;/a&gt;&lt;/em&gt;). Some of us have started to see - the &lt;em&gt;bad web&lt;/em&gt; &lt;a href=&quot;https://www.takahe.org.nz/heat-death-of-the-internet/&quot;&gt;is dying&lt;/a&gt;, and we &lt;a href=&quot;https://mastodon.online/@mastodonmigration/113997147501946637&quot;&gt;gotta get out&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://eigenmagic.net/@daedalus/113977112334022507&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/ai-dr.png&quot; alt=&quot;ai;dr&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So &lt;strong&gt;where can you find the “good web”&lt;/strong&gt;? The &lt;em&gt;old&lt;/em&gt; web? The &lt;em&gt;human&lt;/em&gt; web? The &lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;IndieWeb&lt;/a&gt;? &lt;em&gt;Welp&lt;/em&gt;, you’ve already found it. In fact, you’re reading it right &lt;strong&gt;now&lt;/strong&gt;! &lt;em&gt;Well&lt;/em&gt;, at least one small part of it. No matter what you call it, there are pockets of the Internet &lt;strong&gt;full&lt;/strong&gt; of websites owned by &lt;a href=&quot;https://www.stefanjudis.com/blog/a-well-known-avatar-url-would-be-dang-cool/&quot;&gt;individuals&lt;/a&gt;, with novel content, published and &lt;a href=&quot;https://pjonori.blog/posts/own-whats-yours/&quot;&gt;wholly owned&lt;/a&gt; &lt;em&gt;by&lt;/em&gt; those individuals. These sites are unique, they are quirky, they probably have innumerable CSS and HTML markup issues (*&lt;em&gt;cough&lt;/em&gt;* this site *&lt;em&gt;cough&lt;/em&gt;*), they are expressions of those people, and of our collective humanity. They are where &lt;a href=&quot;https://jamesg.blog/2025/02/09/blogs-as-third-places&quot;&gt;we gather&lt;/a&gt;, where we &lt;a href=&quot;https://hamatti.org/posts/how-long-does-it-take-me-to-write-a-blog-post/&quot;&gt;share&lt;/a&gt; things more than ~300 characters at a time, and where we can just be free to &lt;a href=&quot;https://andysblog.uk/why-blog-if-nobody-reads-it/&quot;&gt;shout into the void&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The “good web” isn’t just one place. &lt;strong&gt;The web is a digital archipelago&lt;/strong&gt;. There is no singular map which can exhaustively take you to every island. Instead, explorers like you and me set sail and find these indie-islets, then &lt;a href=&quot;https://archive95.net&quot;&gt;curate&lt;/a&gt; and share them - with our social networks, our friends, on &lt;a href=&quot;https://web.pixelshannon.com/make/&quot;&gt;our own websites&lt;/a&gt;, etc… It’s up to us to &lt;a href=&quot;https://shellsharks.com/notes/2025/02/05/save-your-links&quot;&gt;bookmark what we discover&lt;/a&gt;, and what we enjoy. Like &lt;a href=&quot;https://social.anoxinon.de/@philipp/113963180345246511&quot;&gt;philipp did&lt;/a&gt; when he found a cute li’l blog that had an “art guestbook”. Another great way to save and share cool things you find is by publishing weekly summaries of links and &lt;em&gt;other stuff&lt;/em&gt;. Take a look at these cool examples from &lt;a href=&quot;https://localghost.dev/tags/links/&quot;&gt;Sophie&lt;/a&gt;, &lt;a href=&quot;https://joelchrono.xyz/blog/week-notes-w06/&quot;&gt;Joel&lt;/a&gt; and &lt;a href=&quot;https://crys.site/bookmarks/&quot;&gt;Michał&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once we’ve re-wilded the Internet, maybe then we can (as Courtney has done) &lt;a href=&quot;https://dark.properties/growing-beyond-the-computer/&quot;&gt;touch grass&lt;/a&gt; once more. &lt;em&gt;Until then&lt;/em&gt;, &lt;strong&gt;here’s some neat places I’ve discovered&lt;/strong&gt; in my own recent web surfin’. Check ‘em out!…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bobbyhiltz.com/about/&quot;&gt;Bobby Hiltz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hamatti.org&quot;&gt;Juha-Matti Santala&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.beamout.net&quot;&gt;Beam me out!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://shellsharks.com/fediverse&quot;&gt;Fediverse&lt;/a&gt;, &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1Npo0cmp-VY&quot;&gt;‘tis a silly place&lt;/a&gt;&lt;/em&gt;…&lt;/p&gt;
+
+&lt;iframe src=&quot;https://hackers.town/@RadicalEdward/105663637898899184/embed&quot; class=&quot;mastodon-embed&quot; style=&quot;max-width: 100%; border: 0&quot; width=&quot;400&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
+&lt;script src=&quot;https://hackers.town/embed.js&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For example, I’ve come to understand that &lt;strong&gt;&lt;a href=&quot;https://transfem.social/notes/a41qjgit6kui00sa&quot;&gt;this&lt;/a&gt;&lt;/strong&gt; is the average Misskey experience 😆&lt;/p&gt;
+
+&lt;p&gt;On to a more serious topic… In the &lt;a href=&quot;#indieweb&quot;&gt;last section&lt;/a&gt;, we talked about &lt;strong&gt;enshittification&lt;/strong&gt;, and how it has led to a growing &lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;IndieWeb&lt;/a&gt; movement. Well chances are, if you’re on the Fediverse, or considering moving here, it’s probably also because of that &lt;a href=&quot;https://cristian.livadaru.net/enshittification-of-social-media/&quot;&gt;same wave of enshittification&lt;/a&gt; &lt;i class=&quot;ph ph-video&quot;&gt;&lt;/i&gt;. People are leaving the entrenched social silos, and seeking out less-&lt;a href=&quot;https://www.youtube.com/watch?v=JOSqHPnqoIA&amp;amp;themeRefresh=1&quot;&gt;enshittified&lt;/a&gt; pastures. This hasn’t gone without notice by the larger, more-established social networks either. Meta’s Threads has &lt;em&gt;sorta&lt;/em&gt; &lt;a href=&quot;https://engineering.fb.com/2024/03/21/networking-traffic/threads-has-entered-the-fediverse/&quot;&gt;federated&lt;/a&gt;, and now &lt;a href=&quot;https://techcrunch.com/2025/02/11/tumblr-to-join-the-fediverse-after-wordpress-migration-completes/&quot;&gt;Tumblr is set to join the Fediverse&lt;/a&gt; as well. While the incumbent web seeks to catch up, the &lt;a href=&quot;https://www.socialmediaalternatives.org&quot;&gt;alternative social networks&lt;/a&gt;, the “&lt;a href=&quot;https://socialwebfoundation.org/2025/02/11/the-social-web-foundation-announces-its-membership-in-the-world-wide-web-consortium/&quot;&gt;Social Web&lt;/a&gt;”, pushes on. For example, &lt;a href=&quot;https://blog.joinmastodon.org/2025/02/trunk-tidbits-january-2025/&quot;&gt;Mastodon&lt;/a&gt; and &lt;a href=&quot;https://github.com/MbinOrg/mbin/releases/tag/v1.8.0&quot;&gt;Mbin&lt;/a&gt; both announced &lt;a href=&quot;https://itcamefromtheinternet.lol&quot;&gt;big updates&lt;/a&gt; in the past week alone.&lt;/p&gt;
+
+&lt;p&gt;To &lt;a href=&quot;ttps://savesocial.eu/en/&quot;&gt;reclaim the Internet&lt;/a&gt;, and &lt;strong&gt;help the continued development of these platforms&lt;/strong&gt;, your support is needed. Consider, if you can, &lt;a href=&quot;https://mastodon.iftas.org/@iftas/113962730064757667&quot;&gt;helping IFTAS&lt;/a&gt;, an independent Federated Trust &amp;amp; Safety &lt;a href=&quot;https://about.iftas.org&quot;&gt;organization&lt;/a&gt; that provides nonprofit support for volunteer social web content moderators, community managers, administrators and more. There are other ways to support the Fediverse too! Just being an active participant in the various communities is a good start. Consider joining a group via &lt;a href=&quot;https://about.fedigroups.social/directory&quot;&gt;FediGroups.social&lt;/a&gt;, contributing to the &lt;a href=&quot;https://forum.wedistribute.org/topic/7/thinking-about-fediverse-wikis&quot;&gt;WeDistribute forum&lt;/a&gt;, or attending the upcoming &lt;a href=&quot;https://fediforum.org&quot;&gt;FediForum Unconference&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;To close out this section, I wanted to spotlight a few &lt;strong&gt;Fedi projects &amp;amp; tools&lt;/strong&gt; worth checking out!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://weblog.kylereddoch.me/2025/02/managing-your-social-media-just-got-easier-a-hands-on-review-of-fedica&quot;&gt;Fedica&lt;/a&gt;: A multi-platform social media management tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://radicle.xyz&quot;&gt;Radicle&lt;/a&gt;: Open source, peer-to-peer code collaboration stack built on Git&lt;/li&gt;
+  &lt;li&gt;All the projects that &lt;a href=&quot;https://hollo.social/@hongminhee/0194f2f1-63b3-7c4d-a89c-01615eb966c4&quot;&gt;Hong Minhee&lt;/a&gt; is responsible for, i.e. &lt;a href=&quot;https://fedify.dev/&quot;&gt;Fedify&lt;/a&gt;, &lt;a href=&quot;https://docs.hollo.social/&quot;&gt;Hollo&lt;/a&gt;, &lt;a href=&quot;https://botkit.fedify.dev/&quot;&gt;BotKit&lt;/a&gt;, &lt;a href=&quot;https://logtape.org/&quot;&gt;LogTape&lt;/a&gt;, &lt;a href=&quot;https://github.com/dahlia/yoyak&quot;&gt;Yoyak&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://hackers.pub/&quot;&gt;Hackers Pub&lt;/a&gt; - &lt;em&gt;phew&lt;/em&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;The cyberz was as &lt;em&gt;cyber-ey&lt;/em&gt; as ever this past week, and I &lt;em&gt;don’t&lt;/em&gt; mean that in a good way. More like… 🤦‍♂️&lt;/p&gt;
+
+&lt;p&gt;Here’s exhibit A: &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1bt8GG5c-c6lOYicLeNfARkY0147hWKO88lkrIraTQo0/edit?gid=0#gid=0&quot;&gt;Security Appliance Vulnerability Bingo&lt;/a&gt; (&lt;em&gt;lol!&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;But we can’t spend all our time making fun of security appliance vendors can we? Here’s this week’s &lt;strong&gt;reading list&lt;/strong&gt;…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.net.in.tum.de/fileadmin/TUM/NET/NET-2024-04-1/NET-2024-04-1_16.pdf&quot;&gt;The Path of a Packet Through The Linux Kernel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Sign up for the &lt;a href=&quot;https://www.icann.org/en/announcements/details/icann-webinar-to-discuss-infermal-a-project-focused-on-malicious-domain-registrations-05-02-2025-en&quot;&gt;ICANN Webinar to Discuss INFERMAL, a Project Focused on Malicious Domain Registrations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;So cool, very IndieWeb&lt;/em&gt; - check out Shostack’s weekly &lt;a href=&quot;https://shostack.org/blog/appsec-roundup-jan-2025/&quot;&gt;Appsec Roundup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;February’s first &lt;a href=&quot;https://shellsharks.com/designer-vulnerabilities&quot;&gt;designer vulnerability&lt;/a&gt;: “&lt;strong&gt;&lt;a href=&quot;https://securitylabs.datadoghq.com/articles/whoami-a-cloud-image-name-confusion-attack/&quot;&gt;whoAMI&lt;/a&gt;&lt;/strong&gt;” (courtesy of &lt;strong&gt;Datadog Security Labs&lt;/strong&gt;)&lt;/li&gt;
+  &lt;li&gt;Here’s some cool IndieSec blogs I’ve discovered recently
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://seabassfromspace.blogspot.com&quot;&gt;Sea Bass From Space&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://ariadne.space&quot;&gt;Ariadne’s Space&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://sprocketfox.io/xssfox/&quot;&gt;xssfox&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://xphantom.nl&quot;&gt;Ahmed Sherif&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The Fediverse is the place to be! So if you’re here, and in infosec, come hang out with me and other cyber folks at the &lt;a href=&quot;https://infosec.pub&quot;&gt;Infosec.pub&lt;/a&gt;. We’ve got weekly threads! 🍻
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://infosec.pub/post/23527764&quot;&gt;Mentorship Monday&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://infosec.pub/post/23628757&quot;&gt;What are You Working on Wednesday&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://infosec.pub/post/23688134&quot;&gt;Off-Topic Friday&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally, a few &lt;strong&gt;tools&lt;/strong&gt; to help you on your journey…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ctfsearch.hackmap.win&quot;&gt;Search CTF Writeups&lt;/a&gt;: Find and explore CTF solutions and writeups&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://certcentral.org&quot;&gt;Cert Central&lt;/a&gt;: Centralized place to document the abuse of code-signing certificates&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lolc2.github.io&quot;&gt;LOLC2&lt;/a&gt;: A collection of C2 frameworks that leverage legitimate services to evade detection&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sunny.garden/@anubiarts/113963054357575875&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/remember-to-take-breaks.png&quot; alt=&quot;Remember to take breaks&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Feb 2025 00:09:00 -0500</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-02-14</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-02-14</guid>
+      </item>
+    
+      <item>
+        <title>Scroll duo</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome to <em>volumen duo</em> of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a newsletter for sharing cool stuff from the <a href="#indieweb">IndieWeb</a>, <a href="#fediverse">Fediverse</a> &amp; <a href="#cybersecurity">Cybersecurity</a> realms.</p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome to &lt;em&gt;volumen duo&lt;/em&gt; of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a newsletter for sharing cool stuff from the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt;, &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; &amp;amp; &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’ve decided to plan the regular issuance of this publication for&lt;/em&gt; &lt;strong&gt;Fridays&lt;/strong&gt; &lt;em&gt;instead of Sundays. It’s easier for me to get it out the door with this schedule. This means your getting this issue 2 days sooner than ya thought and only ~3 days after I put out &lt;a href=&quot;https://shellsharks.com/scrolls/scroll/2025-02-04&quot;&gt;the last one&lt;/a&gt;. Lucky you! Now on to it…&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;I have a &lt;a href=&quot;https://shellsharks.com/&quot;&gt;site&lt;/a&gt;, &lt;em&gt;you’re on it&lt;/em&gt;! Sometimes I look at it, and I don’t like what I see, or I see other sites and wish mine looked a &lt;em&gt;bit&lt;/em&gt; more like those. Ultimately though, I find peace, because in the &lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;IndieWeb&lt;/a&gt; world, it’s good to be &lt;strong&gt;unique&lt;/strong&gt;, just &lt;a href=&quot;https://shellsharks.com/notes/2024/05/01/be-yourself&quot;&gt;be yourself&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sonomu.club/@luka/113951270207675021&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/make-it-unique.png&quot; alt=&quot;Make it unique&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That said, it’s great to &lt;strong&gt;learn&lt;/strong&gt;, fun to &lt;strong&gt;build&lt;/strong&gt;, and perfectly acceptable to be &lt;strong&gt;inspired&lt;/strong&gt; by what you see elsewhere on the web. If you’re &lt;a href=&quot;https://shellsharks.com/what-to-add-to-your-site-first&quot;&gt;just getting started&lt;/a&gt;, you may be interested in joining an IndieWeb &lt;a href=&quot;https://32bit.cafe&quot;&gt;community&lt;/a&gt;, a &lt;a href=&quot;https://aggrippino.com/2025/02/HWC-writing-edition/&quot;&gt;website club&lt;/a&gt; or even starting your own “&lt;a href=&quot;https://posobin.com/blogclub/&quot;&gt;blog club&lt;/a&gt;”, because y’know, &lt;a href=&quot;https://blog.cathoderaydude.com/doku.php?id=blog:making_a_website_is_hard&quot;&gt;making a website can be hard&lt;/a&gt;, and there are a few things you might &lt;em&gt;&lt;a href=&quot;https://rachelbythebay.com/w/2025/01/04/cruft/&quot;&gt;not want to do&lt;/a&gt;&lt;/em&gt; on your site-building journey. But don’t stress, you learn by &lt;em&gt;doing&lt;/em&gt; and there’s soooo many fun things to do. You could &lt;a href=&quot;https://xuanwo.io/links/2025/01/link-blog/&quot;&gt;build a link blog&lt;/a&gt;, or build a &lt;a href=&quot;https://chrismcolvin.com/photoroll/&quot;&gt;photoroll&lt;/a&gt;, or build (&lt;em&gt;and then later destroy&lt;/em&gt;) a &lt;a href=&quot;https://nicksimson.com/likes/2025-02-05-all-things-must-pass/&quot;&gt;Likes feed&lt;/a&gt;. If nothing else, you could just &lt;a href=&quot;https://flamedfury.com/posts/blogging-for-the-hell-of-it/&quot;&gt;blog for the hell of it&lt;/a&gt;, it &lt;a href=&quot;https://anniemueller.com/posts/im-gonna-keep-making-shit-and-i-hope-you-will-too&quot;&gt;doesn’t need to be great&lt;/a&gt;, just let the &lt;a href=&quot;https://drmollytov.bearblog.dev/the-small-web-is-rehabilitating-how-i-write/&quot;&gt;catharsis flow&lt;/a&gt;. But if you gotta have &lt;em&gt;something&lt;/em&gt;, why not try this &lt;a href=&quot;#music-questions-challenge&quot;&gt;weekly blogging challenge&lt;/a&gt;. (That’s what &lt;a href=&quot;https://shellsharks.com/music-questions-challenge#title&quot;&gt;I did&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id=&quot;music-questions-challenge&quot;&gt;Music Questions Challenge&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;What are five of your favorite albums?&lt;/li&gt;
+    &lt;li&gt;What are five of your favorite songs?&lt;/li&gt;
+    &lt;li&gt;Favorite Instrument(s)?&lt;/li&gt;
+    &lt;li&gt;What song or album are you current listening to?&lt;/li&gt;
+    &lt;li&gt;Do you listen to the radio? If so, how often?&lt;/li&gt;
+    &lt;li&gt;How often do you listen to music?&lt;/li&gt;
+    &lt;li&gt;How often do you discover music? And how do you discover music?&lt;/li&gt;
+    &lt;li&gt;What’s a song or album that you enjoy that you wish had more recognition?&lt;/li&gt;
+    &lt;li&gt;What’s your favourite song of all time?&lt;/li&gt;
+    &lt;li&gt;Has your taste in music evolved over the years?&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span id=&quot;inspiration&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Since I’ve already mentioned &lt;strong&gt;inspiration&lt;/strong&gt;, let’s talk about &lt;strong&gt;discovery&lt;/strong&gt; a bit. Yes, search engines are worse than they’ve ever been, and the actually-traveled web seems &lt;a href=&quot;https://www.eff.org/deeplinks/2023/12/taking-back-web-decentralization-2023-review&quot;&gt;more centralized than ever&lt;/a&gt;, but &lt;em&gt;we know&lt;/em&gt; the IndieWeb exists. It’s just a matter of &lt;em&gt;&lt;a href=&quot;https://brentter.com/notes/how_to_find_good_rss_feeds_to_follow/&quot;&gt;finding&lt;/a&gt;&lt;/em&gt; these digital gardens, and once you do, saving and subscribing when you find something you like. &lt;a href=&quot;https://usetapestry.com&quot;&gt;Tapestry&lt;/a&gt; is the &lt;a href=&quot;https://iconfactory.world/@Iconfactory/113947606237575693&quot;&gt;newest&lt;/a&gt; addition to the rich and growing collection of feed aggregation apps that we have available to us. It &lt;a href=&quot;https://shellsharks.com/unified-timelines-are-not-for-me#title&quot;&gt;might not be for you&lt;/a&gt;, but you should check it out and see! As for finding stuff, try out &lt;a href=&quot;https://minifeed.net/about&quot;&gt;Minifeed.net&lt;/a&gt;, &lt;a href=&quot;https://bukmark.club&quot;&gt;BUKMARK.CLUB&lt;/a&gt;, &lt;a href=&quot;https://smallweb.cc&quot;&gt;smallweb.cc&lt;/a&gt; or &lt;a href=&quot;https://blue-pages.bitbucket.io&quot;&gt;Blue Pages&lt;/a&gt; for roaming the Indie and Old-webz. Some of my favorite things I’ve stumbled across this week include &lt;a href=&quot;https://destructured.net/combatting-doomscroll&quot;&gt;Combatting doomscroll&lt;/a&gt; (from &lt;a href=&quot;https://destructured.net/about&quot;&gt;L. Rhodes&lt;/a&gt;) &amp;amp; &lt;a href=&quot;https://tracydurnell.com/mind-garden/&quot;&gt;Tracy Durnell’s Mind Garden&lt;/a&gt;, &lt;em&gt;check’m out&lt;/em&gt;!&lt;/p&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Nope&lt;/em&gt;, it’s not just you. The Fediverse &lt;em&gt;is&lt;/em&gt; very active right now, and there’s a lot of enthusiasm and energy across the network, being poured into all manner of projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chaos.social/@hpk/113951868898831918&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/fediverse-exploding.png&quot; alt=&quot;Fediverse exploding&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://frequency.app/about&quot;&gt;Frequency&lt;/a&gt; (currently in beta) is a Fediverse-compatible, photo-forward app which emphasizes privacy and non-algorithmic control. There’s even a &lt;a href=&quot;https://illuminant.asjo.org&quot;&gt;Fediverse server&lt;/a&gt; built using &lt;a href=&quot;https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol&quot;&gt;NNTP&lt;/a&gt; of all things! &lt;a href=&quot;https://castopod.org&quot;&gt;Castopod&lt;/a&gt; is looking to show out with some tips for &lt;a href=&quot;https://podlibre.video/videos/watch/8b5b96b6-d57a-4b5f-9a26-46e70423c92a&quot;&gt;monetizing&lt;/a&gt; using their platform - &lt;em&gt;OK&lt;/em&gt;, get it! But the big story this week is probably Reddit’s continued &lt;a href=&quot;https://www.bbc.com/news/articles/czrlep5xpmzo&quot;&gt;enshitti-slide&lt;/a&gt; (&lt;a href=&quot;https://old.reddit.com/r/BannedSubs/&quot;&gt;sub banning&lt;/a&gt;), resulting in a surge of interest for &lt;a href=&quot;https://shellsharks.com/threadiversal-travel&quot;&gt;Threadiverse&lt;/a&gt; platforms, sought after for their well… &lt;a href=&quot;https://cacm.acm.org/news/disrupting-networks-decentralization-and-the-fediverse/&quot;&gt;this exact kinda nonsense resiliency&lt;/a&gt;. So, might I recommend &lt;a href=&quot;https://infosec.pub&quot;&gt;infosec.pub&lt;/a&gt; for my tech/infosec folks? Oh and Reddit isn’t the only centralized platform people are avoiding (*&lt;em&gt;cough&lt;/em&gt;* Discord *&lt;em&gt;cough&lt;/em&gt;*), &lt;a href=&quot;https://dualpower.supply/posts/nodebb/&quot;&gt;NodeBB has federated&lt;/a&gt; and is making a statement as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hachyderm.io/@db0/113952378669483460&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/lemmy-registrants.png&quot; alt=&quot;Lemmy registrants&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But it’s not just new apps and platform stuff, there’s a lot of connective tissue and &lt;strong&gt;Fedi-supporting services&lt;/strong&gt; that are being developed as well, each &lt;strong&gt;&lt;a href=&quot;https://fedi.foundation/2021/04/fediverse-spiral-island-analogy/&quot;&gt;enhancing&lt;/a&gt;&lt;/strong&gt; and pushing the Fediverse forward. Improvements across &lt;a href=&quot;https://www.markpitblado.me/blog/
+verification-across-the-expansive-web/&quot;&gt;verification&lt;/a&gt;, &lt;a href=&quot;https://fires.fedimod.org&quot;&gt;moderation&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://snarfed.org/2025-02-04_54609&quot;&gt;reach&lt;/a&gt; all saw movement this week. One such organization, that is trying to push things forward, is &lt;strong&gt;&lt;a href=&quot;https://spritely.institute/donate/&quot;&gt;Spritely&lt;/a&gt;&lt;/strong&gt;, who’s mission is literally to “&lt;em&gt;advance networked user freedom&lt;/em&gt;”, and they’re looking for your &lt;a href=&quot;https://spritely.institute/donate/&quot;&gt;support&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;News aside, are you looking to &lt;strong&gt;improve your Fediverse-roving experience&lt;/strong&gt;? In a non-algorithmic world, we’re responsible for self-curating our feeds, so start with &lt;a href=&quot;https://fosstodon.org/@WetHat/109522509194041473&quot;&gt;following&lt;/a&gt; some more folks! Are you &lt;em&gt;technically&lt;/em&gt; on Mastodon, but really haven’t quite figured it out yet? How about reading &lt;a href=&quot;https://the-counterforce.org/guide-to-mastodon-fediverse/&quot;&gt;THE COUNTERFORCE GUIDE TO MASTODON AND THE FEDIVERSE (FOR PUNKS!)&lt;/a&gt;. The recently minted &lt;a href=&quot;https://from.thefedi.wiki/@hello/statuses/01JK6TTR82QWGV3J76NKE7QMST&quot;&gt;Fedi Forum&lt;/a&gt; also seems like a great way to help, &lt;em&gt;and be helped&lt;/em&gt;, and is unsurprisingly Fedi-native! Do you live in or near Austin, Texas? Love the Fediverse? Well &lt;a href=&quot;https://about.flipboard.com/fediverse/fediverse-house-2025/&quot;&gt;Flipboard is hosting the “Fediverse House”&lt;/a&gt; to talk about and showcase the social web in all its awesomeness. Not a boring day in the decentralized web is there?&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;Alright cyber-frienz, here’s some stuff for you too.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://infosec.exchange/@kpwn/113945802286155946&quot;&gt;@kpwn&lt;/a&gt; announced some updates to &lt;a href=&quot;https://cvecrowd.com&quot;&gt;CVE Crowd&lt;/a&gt;, a crowd-sourced vulnerability intelligence platform&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://labs.watchtowr.com/&quot;&gt;watchTowr Labs&lt;/a&gt; dropped an absolutely bonkers, and wildly detailed, &lt;a href=&quot;https://labs.watchtowr.com/8-million-requests-later-we-made-the-solarwinds-supply-chain-attack-look-amateur/&quot;&gt;supply chain security writeup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://portswigger.net/&quot;&gt;PortSwigger&lt;/a&gt; publishes their annual &lt;a href=&quot;https://portswigger.net/research/top-10-web-hacking-techniques-of-2024&quot;&gt;top 10 web hacking techniques&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Google thinks they’ve &lt;a href=&quot;https://bughunters.google.com/blog/6644316274294784/secure-by-design-google-s-blueprint-for-a-high-assurance-web-framework&quot;&gt;almost completely eliminated exploitable web vulnerabilities&lt;/a&gt; (&lt;em&gt;lol&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Ah&lt;/em&gt;, &lt;a href=&quot;https://www.first.org/cvss/&quot;&gt;CVSS&lt;/a&gt; is the latest topic of discussion. &lt;a href=&quot;https://cyberscoop.com/cvss-criticism-cve-nvd-nist-epss/&quot;&gt;Some say we need it&lt;/a&gt;, others… &lt;a href=&quot;https://daniel.haxx.se/blog/2025/01/23/cvss-is-dead-to-us/&quot;&gt;want it to die&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Got some interesting research you’re sitting on? Why not submit to &lt;a href=&quot;https://infosec.exchange/@owasp/113947491176274464&quot;&gt;OWASP Global AppSec USA&lt;/a&gt; or &lt;a href=&quot;https://fwdcloudsec.org/conference/north-america/cfp.html&quot;&gt;fwd: cloudsec North America&lt;/a&gt;?&lt;/li&gt;
+  &lt;li&gt;Maybe that research can help someone not end up on &lt;a href=&quot;https://blog.xposedornot.com/weekly-databreaches-roundup-week-05-2025/&quot;&gt;this list&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Looking for more juicy intel and security shtuff? I recommend following &lt;a href=&quot;https://infosec.exchange/@screaminggoat&quot;&gt;@screaminggoat&lt;/a&gt; on Mastodon&lt;/li&gt;
+  &lt;li&gt;Check out the &lt;a href=&quot;https://blog.exploits.club/exploits-club-weekly-newsletter-58-botched-mac-patches-accidental-linux-bugs-v8-sandbox-bypasses-and-more/&quot;&gt;exploits.club Weekly Newsletter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Here’s &lt;a href=&quot;https://iang.org/papers/market_for_silver_bullets.html&quot;&gt;an oldie but goodie&lt;/a&gt; asking “&lt;em&gt;What is security?&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;Finally, here’s a pair of cool infosec blogs I discovered this week - &lt;a href=&quot;https://www.badsamurai.dev&quot;&gt;B’AD Samurai&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://blas.me&quot;&gt;Blas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pixelfed.social/p/superverity64/791983533631904755&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/coffee-shop.png&quot; width=&quot;650px&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;time&gt;&lt;i&gt;Credit to &lt;a href=&quot;https://pixelfed.social/p/superverity64/791983533631904755&quot;&gt;superverity64&lt;/a&gt; for this image.&lt;/i&gt;&lt;/time&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Feb 2025 08:29:00 -0500</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-02-07</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-02-07</guid>
+      </item>
+    
+      <item>
+        <title>Scroll ūnus</title>
+        <author>mike@shellsharks.com (Mike)</author>
+        <shark:summary><p>Welcome all to the first issue of <a href="/scrolls"><span class="shellsharks">Scrolls</span></a>, a <em>newsletter-ish</em> type thing that I hope to compile each week with all sorts of <em>stuff</em> from across the <a href="#indieweb">IndieWeb</a> / <a href="#fediverse">Fediverse</a> / <a href="#cybersecurity">Cybersecurity</a> realms. The name “Scrolls” is, as you may have already gathered, a play on a piece of writing, the scrolling we do across our various feeds/sites, and the general magic of the web. <em>Enjoy!</em></p>
+</shark:summary>
+        <description>&lt;p&gt;Welcome all to the first issue of &lt;a href=&quot;https://shellsharks.com/scrolls&quot;&gt;&lt;span class=&quot;shellsharks&quot;&gt;Scrolls&lt;/span&gt;&lt;/a&gt;, a &lt;em&gt;newsletter-ish&lt;/em&gt; type thing that I hope to compile each week with all sorts of &lt;em&gt;stuff&lt;/em&gt; from across the &lt;a href=&quot;#indieweb&quot;&gt;IndieWeb&lt;/a&gt; / &lt;a href=&quot;#fediverse&quot;&gt;Fediverse&lt;/a&gt; / &lt;a href=&quot;#cybersecurity&quot;&gt;Cybersecurity&lt;/a&gt; realms. The name “Scrolls” is, as you may have already gathered, a play on a piece of writing, the scrolling we do across our various feeds/sites, and the general magic of the web. &lt;em&gt;Enjoy!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In the future, I foresee this being published out on Sunday night, but as things go, I was a bit late. Ah well!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;First, shoutout to &lt;a href=&quot;https://socel.net/@von_rostock&quot;&gt;Michał Rostocki&lt;/a&gt; for this sweet animation. I came across it in my Fedi timeline and it seemed quite appropriate for the occasion!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://socel.net/@von_rostock/113914330771027899&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/scroll.gif&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, &lt;a href=&quot;https://mastodon.bsd.cafe/@mms&quot;&gt;mms&lt;/a&gt; with the equally timely question about IndieWeb newsletters 😄.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Let’s jump in!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;indieweb&quot;&gt;IndieWeb&lt;/h1&gt;
+
+&lt;p&gt;First, some quick commentary on the differentiation (or lack there of) between the “&lt;a href=&quot;https://indieweb.org&quot;&gt;IndieWeb&lt;/a&gt;”, the “&lt;a href=&quot;https://en.wikipedia.org/wiki/Social_web&quot;&gt;Social Web&lt;/a&gt;” and the Web itself. &lt;em&gt;Put simply…&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;The Social Web Is The Web&lt;/strong&gt; &lt;a href=&quot;https://oursocialweb.org&quot;&gt;&lt;i class=&quot;ph-fill ph-arrow-square-out&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Alright&lt;/em&gt;, let’s talk about &lt;strong&gt;getting started with the IndieWeb&lt;/strong&gt;. (You may first want to read about what the IndieWeb is. &lt;a href=&quot;https://indieweb.org&quot;&gt;IndieWeb.org&lt;/a&gt; or &lt;a href=&quot;https://shellsharks.com/indieweb&quot;&gt;my own primer on the IndieWeb&lt;/a&gt; maybe be good places to start). Once you’re caught up, &lt;a href=&quot;https://unplatform.fromthesuperhighway.com/&quot;&gt;Unplatform’s&lt;/a&gt; guide for &lt;a href=&quot;https://unplatform.fromthesuperhighway.com/&quot;&gt;escaping social media (and joining the indie web.)&lt;/a&gt; looks like a good place to head next! &lt;em&gt;Ok&lt;/em&gt;, so you’re interested now, but &lt;em&gt;how&lt;/em&gt; can you actually get started? I’ve long maintained a list of IndieWeb site &lt;a href=&quot;https://shellsharks.com/indieweb#hosting&quot;&gt;hosting providers&lt;/a&gt; you could peruse, and I encourage you do so. But if it looks like too many options, you could do a lot worse then to check out &lt;a href=&quot;https://home.omg.lol&quot;&gt;omg.lol&lt;/a&gt;. This is an &lt;strong&gt;&lt;a href=&quot;https://omglol.news/2025/02/01/toward-a-more-diverse-social-web&quot;&gt;amazing&lt;/a&gt;&lt;/strong&gt; place to get started not only with a site of your own, but also with many other IndieWeb-esque services (e.g. Fediverse handle, custom Email, etc…)&lt;/p&gt;
+
+&lt;p&gt;Looking for one last kick to convince you to get a website of your own? Maybe Dan can convince ya…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://omfg.town/@dansinker/113920193243959912&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/get-a-blog.png&quot; alt=&quot;Get A Blog&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Alright cool, stop reading this now, go get yourself a custom domain name and a web hosting provider and meet me back here.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You’re back!&lt;/em&gt; &lt;strong&gt;Nice&lt;/strong&gt;. You got yourself a site, or at least you have some of the building blocks for one. &lt;em&gt;Now what?&lt;/em&gt; Let’s get into some of the more mechanical bits, i.e. &lt;strong&gt;hosting and building your site&lt;/strong&gt;. If you’re still stuck on hosting, but interested in a little DIY, check out &lt;a href=&quot;https://32x33.institute&quot;&gt;32x33 Institute’s&lt;/a&gt; series on &lt;a href=&quot;https://32x33.institute/tag/self-hosting/&quot;&gt;hosting your own stuff&lt;/a&gt;. Next, you’ll probably want to learn a bit of &lt;a href=&quot;https://htmlforpeople.com&quot;&gt;HTML&lt;/a&gt;. If you’re at this point and start thinking “&lt;em&gt;this just seems way too over my head, I’m not a web developer or anything sheesh!&lt;/em&gt;”, go check out this guide on &lt;a href=&quot;https://mkultra.monster/pages/webdev/&quot;&gt;how to build a website&lt;/a&gt;. This guide was literally built by someone much like yourself I suspect. Not a super developer or coding wiz, just someone who got interested and jumped in to figure it all out - and is now paying it forward with their own guide(s) on how to do &lt;em&gt;exactly&lt;/em&gt; what they did. Let it inspire you! If you’re like me, and you want to use a &lt;a href=&quot;https://jamstack.org/generators/&quot;&gt;Static Site Generator&lt;/a&gt;, here’s a &lt;a href=&quot;https://pbs.bartificer.net/pbs175&quot;&gt;podcast episde&lt;/a&gt; you may find interesting. Or maybe you already have a site, but &lt;em&gt;&lt;a href=&quot;https://www.theverge.com/2024/9/27/24256361/wordpress-wp-engine-drama-explained-matt-mullenweg&quot;&gt;yuck&lt;/a&gt;&lt;/em&gt;, it’s on Wordpress, here’s &lt;a href=&quot;https://taggart-tech.com/20241213-wordpress-alternatives/&quot;&gt;where you can go next&lt;/a&gt;. Finally, &lt;a href=&quot;https://stefanbohacek.online/@stefan/113929519626990461&quot;&gt;Stefan Bohacek&lt;/a&gt; also has a pretty great &lt;a href=&quot;https://stefanbohacek.com/blog/resources-for-keeping-the-web-free-open-and-poetic/&quot;&gt;resource pack&lt;/a&gt; for getting into the IndieWeb.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;OK.&lt;/em&gt; Your site is up. &lt;em&gt;But&lt;/em&gt;… it’s looking a little &lt;em&gt;empty&lt;/em&gt;. Or &lt;em&gt;plain&lt;/em&gt;. Or &lt;em&gt;boring&lt;/em&gt;. Let’s spruce it up! Typically, when I’m looking for inspiration for what to do with my site, or what to write about, I look at others right in the IndieWeb community. So here, let me &lt;strong&gt;showcase some cool stuff I’ve encountered, which may give you some ideas for what to do with your own site&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How about building a page for you to archive, or showcase your microblog/social media content? Check out &lt;a href=&quot;https://mkultra.monster/pages/notes/&quot;&gt;this example&lt;/a&gt; from &lt;a href=&quot;https://labyrinth.zone/notice/AqevnWIBbzvvCPkWwK&quot;&gt;Mkultra.Monster&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Blogrolls are a great way to share your favorite sites from around the web. They are in their own right a &lt;a href=&quot;https://alexsci.com/blog/blogroll-network/&quot;&gt;federated social network&lt;/a&gt;. &lt;a href=&quot;https://hachyderm.io/@reillypascal/113924396076080839&quot;&gt;Reilly Spitzfaden&lt;/a&gt; just shared their &lt;a href=&quot;https://reillyspitzfaden.com/blogroll/&quot;&gt;blogroll&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mastodon.social/@sphars/113926870562760052&quot;&gt;Spencer Harston&lt;/a&gt; has a &lt;a href=&quot;https://www.spencerharston.com/books/&quot;&gt;/books&lt;/a&gt; page, which is nothing more than a place for him to share the books he’s reading or has read. &lt;em&gt;Neat!&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Don’t just stand up a website, share &lt;strong&gt;what you stand for&lt;/strong&gt;. Tracy Durnell has done this with their &lt;em&gt;&lt;a href=&quot;https://tracydurnell.com/2025/01/21/guiding-principles-for-my-website/&quot;&gt;Guiding principles for my website&lt;/a&gt;&lt;/em&gt; post.&lt;/li&gt;
+  &lt;li&gt;Wanna share a buncha stuff all at once? A “monthly recap”-style series is one way to go. &lt;a href=&quot;https://flamedfury.com/tags/monthly%20recap/&quot;&gt;Flamed Fury&lt;/a&gt; and &lt;a href=&quot;https://blog.shrediverse.net/posts/january-2025-listening-history&quot;&gt;The Shrediverse&lt;/a&gt; each have great examples of this.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you’re ready to take a break from building, why not do some (IndieWeb) surfin’? Three outstanding IndieWeb/Social Web-related aggregation/search clients I’d recommend you check out include &lt;a href=&quot;https://reederapp.com&quot;&gt;Reeder&lt;/a&gt;, &lt;a href=&quot;https://usetapestry.com&quot;&gt;Tapestry&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://surf.social&quot;&gt;Surf&lt;/a&gt;. For discovery, I gotta turn you to my own list of &lt;a href=&quot;https://shellsharks.com/indieweb#explore-the-indieweb&quot;&gt;IndieWeb search engines&lt;/a&gt;. Though two I’ve seen pop up in my feeds recently include &lt;a href=&quot;https://blogofthe.day&quot;&gt;Blog of the .Day&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://blogroll.club&quot;&gt;blogroll.club&lt;/a&gt;, both awesome!&lt;/p&gt;
+
+&lt;p&gt;If all of that wasn’t enough for ya, check out some other cool stuff I’ve come across this past week!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://goodinternetmagazine.com&quot;&gt;Good Internet Magazine&lt;/a&gt; (&lt;a href=&quot;https://tilde.zone/@xandra/113913277766098384&quot;&gt;announcement from alexandra&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.deadweb.club&quot;&gt;Dead Web Club&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://plaintextworld.com&quot;&gt;Plaintext World&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looking for your next writing challenge? Try the “Blog Questions Challenge” and answer these &lt;strong&gt;8&lt;/strong&gt; questions…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Why did you start blogging in the first place?&lt;/li&gt;
+    &lt;li&gt;What platform are you using to manage your blog and why did you choose it?&lt;/li&gt;
+    &lt;li&gt;Have you blogged on other platforms before?&lt;/li&gt;
+    &lt;li&gt;How do you write your posts? For example, in a local editing tool, or in a panel/dashboard that’s part of your blog?&lt;/li&gt;
+    &lt;li&gt;When do you feel most inspired to write?&lt;/li&gt;
+    &lt;li&gt;Do you publish immediately after writing, or do you let it simmer a bit as a draft?&lt;/li&gt;
+    &lt;li&gt;What’s your favourite post on your blog?&lt;/li&gt;
+    &lt;li&gt;Any future plans for your blog? Maybe a redesign, a move to another platform, or adding a new feature?&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;fediverse&quot;&gt;Fediverse&lt;/h1&gt;
+
+&lt;p&gt;What’s goin’ on in the Fediverse? &lt;em&gt;So much&lt;/em&gt;. &lt;a href=&quot;https://from.thefedi.wiki/@hello/statuses/01JK4AGW76T81C9HBR9Q9NZMNM&quot;&gt;The Fedi Wiki&lt;/a&gt; has announced the launch of &lt;a href=&quot;https://thefedi.forum&quot;&gt;The Fedi Forum&lt;/a&gt;, a place for people to ask questions about Fedi software (among other things). &lt;a href=&quot;https://www.fediscovery.org&quot;&gt;Fediverse Discovery Providers&lt;/a&gt; is a project that recently launched which looks to improve decentralized search and discovery across the network. This is sorely needed as it is one of the bigger pain points of using the Fediverse. &lt;a href=&quot;https://video.firesidefedi.live/videos/browse?scope=local&amp;amp;s=2&quot;&gt;Fireside Fedi&lt;/a&gt; is a new show with interviews of the folks who build on the Fediverse. If you’re using &lt;a href=&quot;https://join-lemmy.org&quot;&gt;Lemmy&lt;/a&gt; (and you should), check out &lt;a href=&quot;https://phtn.app&quot;&gt;phtn.app&lt;/a&gt;, a cool front-end app for browsing the &lt;a href=&quot;https://shellsharks.com/threadiversal-travel&quot;&gt;Threadiverse&lt;/a&gt;! The Fediverse may be small compared to its “competitors”, but it’s anything but stagnant.&lt;/p&gt;
+
+&lt;p&gt;To succeed, does the Fediverse ultimately &lt;em&gt;need&lt;/em&gt; to grow? &lt;a href=&quot;https://mementomori.social/@rolle&quot;&gt;@rolle&lt;/a&gt; doesn’t seem to think so - and I agree!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mementomori.social/@rolle/113919619246345310&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/we-dont-need-everyone.png&quot; alt=&quot;We don&apos;t need everyone&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s how I put it…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Fediverse doesn’t need everyone - everyone needs the Fediverse.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So if you aren’t already here. What’s stoppin’ ya? For many it seems, choosing an instance is one of the biggest hangups. Here’s a resource that can maybe help you &lt;a href=&quot;https://privacy.thenexus.today/resources-for-choosing-instances/&quot;&gt;choose the right instance&lt;/a&gt;. Or perhaps you’re on Bluesky and are happy there. &lt;em&gt;Ok&lt;/em&gt;, that’s fair. But can you run a Bluesky instance &lt;a href=&quot;https://my.router.sound-city.dk/@rune/statuses/01JJT2C60ZJTWG4JHDCVF8KWVN&quot;&gt;on a router&lt;/a&gt;? On a &lt;a href=&quot;https://masto.doskel.net/@doskel/113884312225881269&quot;&gt;car&lt;/a&gt;? On a &lt;a href=&quot;https://soc.anarchy.center/@luna/statuses/01J77CC006TMF1DWHQX7C19H0B&quot;&gt;phone&lt;/a&gt;? Can you have a handle &lt;a href=&quot;https://1.6.0.0.8.0.0.b.e.d.0.a.2.ip6.arpa/@domi/statuses/01JJS6BMXVDJTQFTRVX4ZKR2GW&quot;&gt;on a .ARPA domain&lt;/a&gt;? What about a car? On the Fediverse, &lt;em&gt;&lt;a href=&quot;https://gts.superseriousbusiness.org/@dumpsterqueer/statuses/01JKG52S81834TK36KPBVNM3XW&quot;&gt;you can&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;containbox&quot;&gt;
+
+from &lt;i&gt;&lt;a href=&quot;https://lgbt.io/@celesteh/113885993525679822&quot;&gt;@celesteh@lgbt.io&lt;/a&gt;&lt;/i&gt;
+
+&lt;blockquote&gt;
+Bluesky users: For a mere &lt;a href=&quot;https://freeourfeeds.com&quot;&gt;$30 million&lt;/a&gt; USD, we can distribute Bluesky to one other node
+&lt;br /&gt;&lt;br /&gt;
+Fedi users: I put an instance on my car!
+&lt;/blockquote&gt;
+&lt;/div&gt;
+
+&lt;p&gt;😆&lt;/p&gt;
+
+&lt;p&gt;Here’s some other neat stuff I’ve discovered this past week…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeberg.org/fediverse/delightful-fediverse-apps&quot;&gt;Curated list of server apps with support for AP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://maho.dev/2024/02/a-guide-to-implement-activitypub-in-a-static-site-or-any-website/&quot;&gt;A guide to implement ActivityPub in a static site&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Migrate your Mastodon posts/content to a GoToSocial instance with &lt;a href=&quot;https://hey.hagelb.org/@technomancy/statuses/01JHNQH1TJ72FAAT29XQ05FJN4&quot;&gt;masto gear solid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Fediverse is important, and it’s &lt;strong&gt;&lt;a href=&quot;https://shellsharks.com/notes/2023/11/18/mastodon-will-never-die&quot;&gt;not&lt;/a&gt;&lt;/strong&gt; going anywhere. It may never be the biggest, but it doesn’t need to be. If you care about creating &lt;em&gt;lasting&lt;/em&gt; social spaces, reading and sharing news and information &lt;em&gt;without&lt;/em&gt; censorship or algorithmic tampering, you need to create a presence here.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mstdn.social/@stux/113920587351932309&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/thankyou-for-being-part-of-this.png&quot; alt=&quot;Thank You for being part of this&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;cybersecurity&quot;&gt;Cybersecurity&lt;/h1&gt;
+
+&lt;p&gt;Here’s a roundup of cool IndieSec blogs and posts I’ve discovered this past week…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://malicious.pro&quot;&gt;Malicious.pro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://balintmagyar.com/index.html&quot;&gt;Bálint Magyar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jprx.io/cve-2024-54507/&quot;&gt;SUSCTL from JPRX.IO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://soatok.blog/2025/01/31/hell-is-overconfident-developers-writing-encryption-code/&quot;&gt;Hell is Overconfident Developers Writing Encryption Code&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;strong&gt;soatok.blog&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://securitylabs.datadoghq.com/articles/kubernetes-security-fundamentals-part-6/&quot;&gt;Kuberenetes security fundamentals: Networking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://predictors.fail&quot;&gt;SLAP &amp;amp; FLOP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aszx87410.github.io/beyond-xss/en/&quot;&gt;Beyond XSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cascadiacrow.com/accessing-a-private-network-via-wireguard&quot;&gt;Accessing a Private Network via Wireguard&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;strong&gt;cascadiacrow&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://taggart-tech.com/wireguard/&quot;&gt;Your Private Wireguard Network From Scratch&lt;/a&gt; &lt;em&gt;from&lt;/em&gt; &lt;strong&gt;taggart-tech&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Interested in some other infosec roundups? &lt;a href=&quot;https://infosec.exchange/@wrzlbrmpft&quot;&gt;Luke&lt;/a&gt; has his weekly &lt;a href=&quot;https://infosec.exchange/@wrzlbrmpft/113939160132863452&quot;&gt;cyberlights&lt;/a&gt;, and &lt;a href=&quot;https://infosec.exchange/@timb_machine&quot;&gt;Tim&lt;/a&gt; has a weekly post packed with &lt;a href=&quot;https://infosec.exchange/@timb_machine/113930828239573819&quot;&gt;interesting links&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! Time for me to get some coffee.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mastodon.social/@microtones/113911610874464544&quot;&gt;&lt;img src=&quot;https://shellsharks-images.s3.us-east-1.amazonaws.com/scrolls/2025/coffee-waves.jpg&quot; alt=&quot;Coffee Waves&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Feb 2025 00:02:00 -0500</pubDate>
+        <link>https://shellsharks.com/scrolls/scroll/2025-02-04</link>
+        <guid isPermaLink="true">https://shellsharks.com/scrolls/scroll/2025-02-04</guid>
+      </item>
+    
+  </channel>
+</rss>
